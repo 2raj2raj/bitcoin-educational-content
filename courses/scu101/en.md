@@ -7,21 +7,6 @@ objectives:
   - Implement two-factor authentication to strengthen security and minimize hacking risks.
 ---
 
-# A journey towards protecting your data
-
-Welcome, everyone, to this educational program dedicated to digital security. This training is designed to be accessible to everyone, so no prior knowledge of computer science is required. Our primary goal is to equip you with the knowledge and skills necessary to navigate the digital world more safely and securely.
-
-This will involve implementing several tools, including a secure email service, a password manager, and various software to enhance online security.
-
-In this training, we are not aiming to make you an expert, anonymous, or invulnerable, as this is impossible. Instead, we offer you some simple and accessible solutions to start transforming your online habits and regain control of your digital sovereignty.
-
-Contributors team:
-Muriel; design
-Rogzy Noury & Fabian; production
-Théo; contribution
-
-+++
-
 # Introduction
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
