@@ -42,7 +42,7 @@ The Middle Ages are often seen as a dark period, but we will discover that they 
 This section will focus on the emergence of religious tolerance and economic freedom, which gained momentum during the Renaissance and the Enlightenment. We will also analyse the significance of the year 1776, which marked a major turning point with key events that shaped the free world, before delving into the era of revolutions that redefined the very notion of freedom.
 
 **Section 5: Apex and Decline: From the 19th to the 20th Century**  
-We will continue by studying the upheavals of the 19th and 20th centuries, highlighting the strengths and weaknesses of democracy, Marxist critiques of capitalism, and the Austrian response to these criticisms. We will also explore warnings about the dangers of collectivism through major works, such as "The Road to Serfdom."
+We will continue by studying the upheavals of the 19th and 20th centuries, highlighting the strengths and weaknesses of democracy, Marxist critiques of capitalism, and the Austrian response to these criticisms. We will also explore warnings about the dangers of collectivism through major works, such as "The Road to Serfdom".
 
 **Section 6: The Rise of the Welfare State in the 20th Century**  
 Finally, this section will examine how the welfare state gradually took precedence over the ideas of economic freedom, notably through the triumph of Keynes and the abandonment of the gold standard. We will conclude by emphasizing the importance of ideas in shaping the course of history and the continued role of freedom in our modern societies.
@@ -96,13 +96,13 @@ From this perspective, there are only two kinds of political philosophies: the p
 
 The antagonism between these two philosophies exists in all eras. But we can illustrate it with the philosophy of the Enlightenment. There is clearly a dividing line between the two types of thinkers.
 
-Those who defend the first philosophy in France are the Physiocrats, with François Quesnay at their head. They call themselves physiocrats (the name comes from the Greek "Physis," meaning nature, and "Kratos," meaning rule) because they develop an economic and social thought based on the natural rights of man. For them, society, people, and properties exist before laws. In this system, Bastiat explains,
+Those who defend the first philosophy in France are the Physiocrats, with François Quesnay at their head. They call themselves physiocrats (the name comes from the Greek "Physis", meaning nature, and "Kratos", meaning rule) because they develop an economic and social thought based on the natural rights of man. For them, society, people, and properties exist before laws. In this system, Bastiat explains,
 
 > It is not because there are laws that there are properties, but because there are properties that there are laws. (_Property and Law_).
 
 ![image](assets/1/img-018.webp)
 
-For Turgot and Say, disciples of Quesnay, there exists a natural law, independent of the whims of legislators, which is valid for all men and predates any society. This philosophy comes directly from medieval scholasticism, the Stoics, Aristotle, and Sophocles. The unwritten laws are both before and superior to written laws because they stem from human nature and reason.
+For Turgot and Say, disciples of Quesnay, there exists a natural law, independent of the whims of legislators, which is valid for all men and predates any society. This philosophy comes directly from medieval scholasticism, the Stoics, Aristotle, and Sophocles. The unwritten laws come before written laws and superior to them because they stem from human nature and reason.
 
 ![image](assets/1/img-014.webp)
 The second philosophy is found among authors such as Rousseau, Robespierre, or Kant, who embody the republican tradition, in which the sovereignty of the general will is considered the true source of law. A contemporary of Quesnay, Rousseau is an anti-physiocrat. For him, the legislator must organize society, like a mechanic who invents a machine from inert matter.
@@ -327,7 +327,7 @@ For Rothbard, social order can prevail if it is the product of the generalizatio
 
 And he adds:
 
-> We have now tasted all the variants of statism, and they have all failed. Throughout the Western world at the beginning of the 20th century, business leaders, politicians, and intellectuals began to advocate for a "new" mixed economy system, characterised by state domination, in place of the relative laissez-faire of the previous century. New panaceas, attractive at first glance, like socialism, the corporatist state, the Welfare-Warfare state, etc., have been tried and all have manifestly failed. The arguments in favor of socialism and state planning now appear as pleas for an aged, exhausted, and failed system. What is left to try but freedom?
+> We have now tasted all the variants of statism, and they have all failed. Throughout the Western world at the beginning of the 20th century, business leaders, politicians, and intellectuals began to advocate for a "new" mixed economy system, characterized by state domination, in place of the relative laissez-faire of the previous century. New panaceas, attractive at first glance, like socialism, the corporatist state, the Welfare-Warfare state, etc., have been tried and all have manifestly failed. The arguments in favor of socialism and state planning now appear as pleas for an aged, exhausted, and failed system. What is left to try but freedom?
 >
 > (_Ethics of Liberty_)
 
@@ -358,7 +358,7 @@ Historian Jean-Pierre Vernant writes:
 
 ![image](assets/2/img-001.webp)
 
-The Greek word "polis," which gives rise to the French word "politics," refers to a city-state. When Aristotle writes that "man is by nature a political animal," it does not mean he is made for power. By politics, he refers to the faculty that men have to deliberate in the public square to determine what is just and unjust.
+The Greek word "polis," which gives rise to the English word "politics," refers to a city-state. When Aristotle writes that "man is by nature a political animal," it does not mean he is made for power. By politics, he refers to the faculty that men have to deliberate in the public square to determine what is just and unjust.
 
 This novelty is based on the fundamental distinction between two terms in the Greek language, "phusis" and "nomos," which designate two types of laws:
 
@@ -587,7 +587,7 @@ Liberalism: trust in the action of individuals, producing a spontaneous order, j
 Socialism: the organization by the State of society considered as a whole, through the planning of production and consumption.
 
 The thesis of Philippe Fabry's book is that "the fall of the Roman Empire is the consequence of the deadlock into which imperial socialism had led the ancient world." It was the dirigisme of the Roman imperial state that led to its collapse.
-The Roman Republic, the greatest liberal power of the ancient world, lasted from 510 BC to 23 AD, spanning over 500 years. However, gradually, the civic collegiality that characterized the Roman Republic gave way to personal power, embodied by emperors who adopted the style of government of the Oriental potentates of ancient Egypt and Persia. Breaking with a previously moderate foreign policy, Rome suddenly subdued vast populations through war, providing streams of slaves to wealthy Roman investors, and ruining the middle classes. In return, the Roman population demanded increasing subsidies.
+The Roman Republic, the greatest liberal power of the ancient world, lasted from 510 BC to 27 BC, spanning over 500 years. However, gradually, the civic collegiality that characterized the Roman Republic gave way to personal power, embodied by emperors who adopted the style of government of the Oriental potentates of ancient Egypt and Persia. Breaking with a previously moderate foreign policy, Rome suddenly subdued vast populations through war, providing streams of slaves to wealthy Roman investors, and ruining the middle classes. In return, the Roman population demanded increasing subsidies.
 
 In the early days of its greatness, each Roman considered himself the main source of his income. What he could voluntarily acquire in the market was the source of his livelihood. Rome's decline began when a large number of citizens discovered another source of income: the political process or the redistributive state.
 
@@ -616,7 +616,7 @@ The Christian concept of freedom developed in medieval theology, from Saint Augu
 ### Freedom is implicated in the idea of sin
 
 From the outset, Christianity teaches that sin is a personal matter, not inherent to the group, but rather that each individual must take responsibility for their salvation. "God has endowed his creature with free will, the capacity to do wrong, and thereby, the responsibility for sin," asserts Saint Augustine in his treatise on free will, _De Libero Arbitrio_.
-Sin cannot exist without freedom. Indeed, the Christian God is a judge who rewards virtue and punishes sin. However, this conception of God is precisely incompatible with fatalism because a person could not be guilty and make a mea culpa if they were not first free to determine their behavior. To acknowledge one's moral fault, one's guilt, is to recognize that one could have acted differently.
+Sin cannot exist without freedom. Indeed, the Christian God is a judge who rewards virtue and punishes sin. However, this conception of God is precisely incompatible with fatalism because a person could not be guilty and make a "mea culpa" if they were not first free to determine their behavior. To acknowledge one's moral fault, one's guilt, is to recognize that one could have acted differently.
 
 > "Why do we do wrong?" asks Saint Augustine. If I am not mistaken, the argument has shown that we act this way through the free will of the will. But this free will to which we owe our ability to sin, we are convinced, I wonder if He who created us did well to give it to us. It seems, indeed, that we would not have been exposed to sin if we had been deprived of it; but it is to be feared that, in this way, God also appears as the author of our bad actions. (_De libero arbitrio_, I, 16, 35.)
 
@@ -1223,7 +1223,7 @@ For Tocqueville, man is much more attracted to equality than to freedom. He view
 
 ### The Right to Work
 
-The right to work is a good example of the drift of democratic egalitarianism. In a speech to the Constituent Assembly in 1848, Tocqueville took a stand against the right to work in the draft constitution. If the State undertakes to provide work for all workers, he argued, or if it ensures that they always find it in the job market, as the socialists want, it will lead to becoming "the great and unique organizer of labur."
+The right to work is a good example of the drift of democratic egalitarianism. In a speech to the Constituent Assembly in 1848, Tocqueville took a stand against the right to work in the draft constitution. If the State undertakes to provide work for all workers, he argued, or if it ensures that they always find it in the job market, as the socialists want, it will lead to becoming "the great and unique organizer of labor."
 
 In this speech, Tocqueville compares socialism to the Ancien Régime, for whom "its subjects are infirm and weak beings who must always be held by the hand, lest they fall or hurt themselves." Socialism is thus "a new form of servitude" for three reasons:
 
