@@ -65,6 +65,7 @@ Why title this course: A History of Freedom? Because we need to understand the r
 
 At the same time, Auguste Comte said, "One does not fully know a science until one knows its history." This truth could be applied to the idea of freedom.
 Indeed, freedom is not a new idea. It is a legacy passed down through generations. The entire history of civilization bears witness to a relentless struggle for freedom.
+
 ![image](assets/1/img-022.webp)
 
 However, the goal of this course is not only to shed light on the history of freedom, but also—and more importantly—to develop critical thinking. Indeed, history alone is not enough to judge the present and the future. It needs to be accompanied by critical reflection and a judgment on past mistakes. This is the contribution of philosophy. That is why I have titled this course 'A Philosophical History of Freedom.' It is indeed about exploring how philosophers have conceived of freedom throughout the ages.
@@ -320,7 +321,8 @@ According to Rothbard, history is not a linear process, but rather an oscillatio
 Between the 17th and 19th centuries, in many Western countries, there were periods of accelerated social progress and a corresponding increase in freedom, peace, and material well-being. But Rothbard reminds us that the 20th century was marked by a resurgence of State power, with dire consequences: an increase in slavery, war, and destruction.
 
 > During this century, the human race faces, once again, the virulent reign of the State; the State now armed with the creative power of man, confiscated and perverted for its ends.
-> What is a free society, after all? It's a society without a monopoly. In his work of political philosophy, _Ethics of Liberty_ (1982), Rothbard answers: "a society in which there is no legal possibility of coercive aggression against an individual's person or property." This is why, according to him, political philosophy, which must define the principles of a just society, boils down to one single question: "Who legitimately owns what?"
+> What is a free society, after all? It's a society without a monopoly. In his work of political philosophy, _Ethics of Liberty_ (1982), Rothbard answers: "a society in which there is no legal possibility of coercive aggression against the person or property of any individual." This is why, according to him, political philosophy, which must define the principles of a just society, boils down to one single question: "Who legitimately owns what?"
+
 > ![image](assets/1/img-029.webp)
 
 For Rothbard, social order can prevail if it is the product of the generalization of contractual procedures for the free exchange of property rights, achieved by privatizing all economic activities and even sovereign functions (such as central banks and courts), and by resorting to competition among protection agencies.
