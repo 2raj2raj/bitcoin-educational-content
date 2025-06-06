@@ -56,14 +56,14 @@ This course is divided into four parts, which respectively focus on the origins 
 - Private Digital Currencies (1996–2013)
 - Decentralized Models Before Nakamoto (1982–2012)
 - The Birth of Bitcoin (August 2008–January 2009)
-- Presentation to the World (Jan. 2009–October 2009)
+- Presentation to the World (January 2009–October 2009)
 - The Bootstrapping of Cryptocurrency (October 2009–April 2010)
 - Graphics Cards, Pizzas, and Free Bitcoins (April 2010–June 2010)
 - The Great Slashdotting (June 2010–July 2010)
 - The First Technical Troubles (July 2010–September 2010)
-- The Digital Gold Rush (Sept. 2010–October 2010)
+- The Digital Gold Rush (September 2010–October 2010)
 - The Blossoming of the Ecosystem (October 2010–December 2010)
-- The Disappearance of Satoshi (Dec. 2010–April 2011)
+- The Disappearance of Satoshi (December 2010–April 2011)
 - The Community Takes Over (April 2011–September 2011)
 
 **Details**
@@ -81,6 +81,7 @@ The content is partially adapted from the French book [*L'Élégance de Bitcoin*
 Note that for the non-English version of this course, most quotes come from American English and have been translated for the occasion. The term *coin* is generally translated as "unit" (and not "piece") when it refers to the unit of account.
 
 Are you ready to explore the incredible saga of Bitcoin's creation? Then let’s dive together into this extraordinary story!
+
 # The Origins of Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -143,7 +144,7 @@ The eCash model is a digital currency concept that allows customers to make rela
 
 Digital notes can be issued without a guarantee or can be backed. In the first case, they form a base currency that must acquire value. In the second case, they are supported by another currency (typically the dollar), and the user can return their notes to their bank at any time to recover the corresponding amount.
 
-In its technical operation, the eCash model is based on the blind signature process, which allows a signer to sign something without seeing what they are signing. A user generates each note and then signs it with a bank to ensure its authenticity, without the bank being able to identify the note. Each note represents a specific amount of monetary units (denomination), and each bank in the system has a private key to sign each type of denomination. The mathematical procedure involved (which we will not describe here) is analogous to the signing of a physical note on [carbon paper](https://fr.wikipedia.org/wiki/Papier_carbone) placed in a sealed envelope.
+In its technical operation, the eCash model is based on the blind signature process, which allows a signer to sign something without seeing what they are signing. A user generates each note, which is then signed by a bank to ensure its authenticity, without the bank being able to identify the note. Each note represents a specific amount of monetary units (denomination), and each bank in the system has a private key to sign each type of denomination. The mathematical procedure involved (which we will not describe here) is analogous to the signing of a physical note on [carbon paper](https://fr.wikipedia.org/wiki/Papier_carbone) placed in a sealed envelope.
 
 Here is an illustration of the different steps involved in the creation and replacement of a Chaumian note (from *L'Élégance de Bitcoin*):
 
@@ -541,6 +542,7 @@ Therefore, the challenge of this period was to promote Bitcoin to attract a crit
 In this chapter, we will examine the cultural codes that emerged from Satoshi's communication efforts, such as his distrust of the banking system and the 21 million limit. We will also comment on Satoshi's conversations with his detractors to defend his invention. Finally, we will talk about the help he got from others, especially the essential assistance of Martti Malmi, his first right-hand man.
 
 ### The Genesis Block
+
 The launch in January 2009 allowed Satoshi Nakamoto to establish his system's fixed parameters. As he would [write](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) later, the nature of Bitcoin is such that, "once version 0.1 was released," its basic operation was "set in stone for the rest of its existence," making it necessary to get things right before the system expanded. (*original: "once version 0.1 was released, the core design was set in stone for the rest of its lifetime"*) In particular, two foundational elements have significant cultural importance: the content of the genesis block and the limit of 21 million units.
 
 The genesis block is the base block of the Bitcoin blockchain, from which it must be extended. It is, therefore, hardcoded into the software. Before launching the network, Satoshi constructed the first link by producing the required proof of work and timestamping it on January 3, 2009, at 18:15:05 UTC. In this block (and specifically in the reward transaction), he inscribed the following message:
@@ -812,6 +814,7 @@ However, this question never bothered Satoshi, who saw the bootstrapping of a ne
 
 # The First Rise of Bitcoin
 <partId>557d792d-34d5-4a10-8977-82afdcfe402b</partId>
+
 ## Graphics Cards, Pizzas, and Free Bitcoins
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
