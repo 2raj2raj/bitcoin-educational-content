@@ -525,7 +525,7 @@ BTCPay Server has built-in hardware wallet support, allowing you to use your har
 
 #### Signing with a wallet supporting PSBT
 
-PSBT (Partially Signed Bitcoin Transactions) is an interchange format for Bitcoin transactions that are still pending full signature. PSBT is supported in BTCPay Server and can be signed with compatible hardware and software wallets.
+PSBT (Partially Signed Bitcoin Transactions) is an interchange format for Bitcoin transactions still need to be fully signed. PSBT is supported in BTCPay Server and can be signed with compatible hardware and software wallets.
 
 The construction of a fully signed Bitcoin transaction goes through the following steps:
 
@@ -884,7 +884,7 @@ In this section, you learned:
 - The contents and function of various Lightning-related tiles in the Dashboard
 - How to configure Lightning wallet using Voltage Surge or Alby
 
-### 
+### Knowledge assessment Practical Review
 
 Describe some of the various options for connecting a Lightning wallet to your store.
 
@@ -1735,7 +1735,7 @@ The table below lists and describes the standard invoice statuses in BTCPay, alo
 | Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
 | Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
 | Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contactthe  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
+| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
 | Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
 | Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
 | Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
