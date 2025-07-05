@@ -76,7 +76,7 @@ In this chapter, we will embark on a comprehensive exploration of the core conce
 
 Money, in its simplest form, is a tool used to facilitate trade and store wealth over time. It serves three primary functions:
 
-1. **Store of Value**: Money must be able to retain value over time, allowing individuals to save and preserve wealth for future use.
+1. **Store of Value**: Money must retain its value over time, enabling individuals to save and preserve wealth for future use.
 2. **Medium of Exchange**: Money facilitates the exchange of goods and services by eliminating the inefficiencies of barter, such as the need for a "double coincidence of wants."
 3. **Unit of Account**: Money provides a consistent measure of value, enabling individuals to compare the worth of goods and services.
 
@@ -169,7 +169,7 @@ The journey of money has evolved from physical exchanges, like gold and silver, 
 
 #### From barter to commodity money
 
-Early civilizations struggled with the inefficiencies of barter, which led to the adoption of commodity money, such as gold and silver. These metals were chosen for their intrinsic value, durability, and divisibility. Over time, the need for more efficient means of trade gave rise to coinage, where trusted authorities minted coins to standardize the value of these commodities.
+Early civilizations struggled with the inefficiencies of barter, which led to the adoption of commodity money, such as gold and silver, as a means of exchange. These metals were chosen for their intrinsic value, durability, and divisibility. Over time, the need for more efficient means of trade gave rise to coinage, where trusted authorities minted coins to standardize the value of these commodities.
 
 - **Coinage and Verification**: Coinage introduced the concept of delegated verification. Rather than individuals needing to verify the purity and weight of gold themselves, trusted entities like temples and governments would stamp coins to certify their authenticity.
 
@@ -374,7 +374,7 @@ In the rapidly evolving world of Bitcoin, understanding key concepts such as pri
 
 #### The blockchain.info wallet weak RNG issue (2013-2014)
 
-- Blockchain.info, a popular Bitcoin wallet at the time, had a flaw in its **random number generator (RNG)** when generating private keys in browser-based wallets. The bug caused the wallet to sometimes generate weak keys with low entropy, making them predictable.
+- Blockchain.info, a popular Bitcoin wallet at the time, had a flaw in its **random number generator (RNG)** when generating private keys in browser-based wallets. The bug caused the wallet to sometimes generate weak keys with low entropy, making them susceptible to prediction.
 - Hackers exploited this weakness, **brute forcing the private keys** and stealing funds from affected wallets.
 - This incident highlighted the importance of **secure entropy sources** when generating private keys, ensuring they cannot be easily guessed or reproduced.
 
@@ -944,7 +944,7 @@ The emergence of comprehensive regulations, such as the MiCA framework in Europe
 
 ### Conclusion
 
-The legal status of Bitcoin remains fluid, with evolving interpretations and regulatory frameworks in place. Courts and regulators worldwide continue to assess Bitcoin's role within legal systems, striking a balance between its potential for innovation and concerns over financial stability, consumer protection, and criminal misuse. As Bitcoin continues to gain acceptance, clearer and more cohesive legal frameworks are expected to emerge, shaping the future of cryptocurrency in the global financial landscape.
+The legal status of Bitcoin remains fluid, with evolving interpretations and regulatory frameworks in place. Courts and regulators worldwide continue to assess Bitcoin's role within legal systems, striking a balance between its potential for innovation and concerns over financial stability, consumer protection, and the potential for criminal misuse. As Bitcoin continues to gain acceptance, clearer and more cohesive legal frameworks are expected to emerge, shaping the future of cryptocurrency in the global financial landscape.
 
 # Bitcoin Business Ethics
 <partId>e1da5d8d-9f92-4f5f-9ab6-45a34c4d5105</partId>
@@ -969,7 +969,7 @@ Bitcoin entrepreneurship demands resilience, a willingness to face setbacks, and
 
 ### Leadership vs. management
 
-A successful Bitcoin startup depends on finding the right balance between leadership and management. Leaders provide vision, inspire teams, and drive the company towards ambitious goals. Managers, on the other hand, ensure that day-to-day operations run smoothly, tasks are completed efficiently, and the team remains productive. Bitcoin startups often require a blend of both qualities, as leadership is necessary to keep pushing boundaries. At the same time, effective management is crucial for maintaining order amid the chaos of a fast-paced environment.
+A successful Bitcoin startup depends on finding the right balance between leadership and management. Leaders provide vision, inspire teams, and drive the company towards ambitious goals. Managers, on the other hand, ensure that day-to-day operations run smoothly, tasks are completed efficiently, and the team remains productive. Bitcoin startups often require a blend of both qualities, as leadership is necessary to keep pushing boundaries. At the same time, effective management is crucial for maintaining order in a fast-paced environment.
 
 Understanding one's role within this spectrum can define the company's culture and directly influence its trajectory. An entrepreneur in the Bitcoin space must be able to inspire belief in their mission while also making pragmatic decisions to keep the venture moving forward.
 
@@ -1135,7 +1135,7 @@ The lecture on FLOSS, security, governance, and business models highlights the t
 
 As we wrap up the 2024 edition of **Plan ₿ Biz School**, we want to thank all participants for their dedication and commitment to learning about Bitcoin’s economic, financial, and business implications. This program has provided a comprehensive exploration of the fundamental principles of Bitcoin and its real-world applications in business, entrepreneurship, and strategy.
 
-But this is just the beginning! We are thrilled to announce that **Plan ₿ Biz School 2025** is already in the works, and it promises to be even bigger and better.
+But this is just the beginning! We are thrilled to announce that **Plan ₿ Biz School 2025** is already underway, and it promises to be even bigger and better.
 
 #### What to Expect in 2025
 
