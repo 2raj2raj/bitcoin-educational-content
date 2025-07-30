@@ -13,13 +13,15 @@ Our course features insights from world-renowned experts who contribute as guest
 
 The 18 curricular lectures are in English and were recorded from the Plan ₿ Hubs of Lugano (CH) and San Salvador (SV). In comparison, the 16 guest lectures were delivered thanks to the collaboration of the Plan ₿ Nodes, which include Turin (IT), Bangkok (TH), and Belgrade (RS). You will find all the video recordings of the 2024 edition, along with a brief text summary of what the lecturers explained.
 
-We also strongly invite you to explore the other half of the Plan ₿ Network educational offer, the “Plan ₿ Tech School,” which targets engineers, cryptographers, computer scientists, and tech-focused students.
+We also strongly invite you to explore the other half of the Plan ₿ Network educational offer, the “Plan ₿ Tech School”, which targets engineers, cryptographers, computer scientists, and tech-focused students.
 
 **Teachers:** Giacomo Zucco, Alekos Filini, Alexandre Bussutil, Rogzy, Riccardo Masutti, Marco Giorgetti, Gael Sánchez Smith, Alejandro Munoz, Ajelex, Mario Jose Flamento Riva, Adi Shankara
 
 **Guest Lecturers:** Pierre Rochard, Obi Nwosu, Oleg Mikhalsk, Cathie Wood, Knut Svanholm, Allen Farrington, Jack Mallers, Elizabeth Stark, Yan Pritzker, Paolo Ardoino, Jan-Willem Burgers, Eric Yakes, Rockstardev, Stiven Kerestegian.
 
-Note: This course is no longer available for purchase. The 2025 BizSchool edition will be published soon. In the meantime, please feel free to send an email to contact@planb.network to express your interest and be informed when it is published.
+Note: this course is only available in English.
+
+This Biz School edition is the open-source version of the 2024 edition. According to our program, we will launch a new Biz School live course every year, with the possibility to purchase attendance a few months before May. Please, feel free to send an email to contact@planb.network to express your interest and be informed when the new edition is published.
 
 +++
 
@@ -55,7 +57,7 @@ The Plan ₿ Network initiative, supported by Fulgur Ventures and Tether, is roo
 
 ### Conclusion
 
-This lecture sets the stage for a more in-depth exploration of Bitcoin's transformative potential. Stay tuned for upcoming lessons where we’ll cover a range of topics, from technical skills to the broader Bitcoin ecosystem. To download these presentation slides, together with the ones belonging to the following lectures, please [click here](https://workspace.planb.network/apps/files/files/24683?dir=/educational-content/courses/premium/biz102PlanB-Biz-School/live-sessions-slides).
+This lecture sets the stage for a more in-depth exploration of Bitcoin's transformative potential. Stay tuned for upcoming lessons where we’ll cover a range of topics, from technical skills to the broader Bitcoin ecosystem. To download these presentation slides, together with the ones belonging to the following lectures, please [click here](https://workspace.planb.network/s/wqM3XwPMY7pzCd5).
 
 # Why Bitcoin?
 <partId>1b012cbf-94e3-4d12-a522-bbea2f1073d9</partId>
@@ -558,17 +560,17 @@ Bitcoin is viewed not just as another cryptocurrency but as the **base layer** f
 
 #### Network effects and the future of money
 
-The power of **network effects** is crucial to understanding Bitcoin's dominance. As more people use Bitcoin, its utility increases, making it more valuable and reinforcing its position as the dominant cryptocurrency. This trend mirrors the adoption of TCP/IP during the early days of the Internet. Once a network achieves critical mass, it becomes nearly impossible for competitors to displace it without offering a dramatically better alternative. Bitcoin maximalists argue that no altcoin has offered improvements significant enough to challenge Bitcoin’s dominance:contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}.
+The power of **network effects** is crucial to understanding Bitcoin's dominance. As more people use Bitcoin, its utility increases, making it more valuable and reinforcing its position as the dominant cryptocurrency. This trend mirrors the adoption of TCP/IP during the early days of the Internet. Once a network achieves critical mass, it becomes nearly impossible for competitors to displace it without offering a dramatically better alternative. Bitcoin maximalists argue that no altcoin has offered improvements significant enough to challenge Bitcoin’s dominance.
 
 ### Philosophical underpinnings
 
-Maximalists also emphasize the **philosophical purity** of Bitcoin’s creation. Bitcoin was launched without any pre-mined tokens or initial coin offerings (ICOs), meaning that its creator, Satoshi Nakamoto, had no financial incentive other than building a decentralized monetary system. In contrast, many altcoins are usually launched with pre-mines or ICOs, enriching their founders and early investors, which corrupts the purpose of a decentralized currency, as maximalists argue.:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}.
+Maximalists also emphasize the **philosophical purity** of Bitcoin’s creation. Bitcoin was launched without any pre-mined tokens or initial coin offerings (ICOs), meaning that its creator, Satoshi Nakamoto, had no financial incentive other than building a decentralized monetary system. In contrast, many altcoins are usually launched with pre-mines or ICOs, enriching their founders and early investors, which corrupts the purpose of a decentralized currency, as maximalists argue.
 
 ![Image](assets/5/3.webp)
 
 ### Conclusion: Why Bitcoin alone matters
 
-Bitcoin Maximalism is based on the belief that Bitcoin, with its decentralized, immutable, and scarce nature, is the only cryptocurrency capable of truly revolutionizing the global financial system. According to maximalists, other cryptocurrencies distract from the Bitcoin mission by creating confusion and diluting the principles of sound, decentralized money. For maximalists, Bitcoin is not just the best cryptocurrency — it is the only one that matters:contentReference[oaicite:10]{index=10}.
+Bitcoin Maximalism is based on the belief that Bitcoin, with its decentralized, immutable, and scarce nature, is the only cryptocurrency capable of truly revolutionizing the global financial system. According to maximalists, other cryptocurrencies distract from the Bitcoin mission by creating confusion and diluting the principles of sound, decentralized money. For maximalists, Bitcoin is not just the best cryptocurrency — it is the only one that matters.
 
 ## Bitcoin Criticisms
 <chapterId>d7b07f7e-c11a-4df0-95a2-b01a9af59203</chapterId>
@@ -587,11 +589,11 @@ One of the most common criticisms of Bitcoin is its energy consumption. Bitcoin 
 
 #### Energy consumption in perspective
 
-To fully assess the environmental impact of Bitcoin, it is crucial to understand that energy consumption is not inherently bad. Bitcoin uses **less than 1%** of the world's energy, and much of the energy consumed is **renewable or otherwise wasted**. Bitcoin miners often utilize energy sources that would otherwise go unused, such as stranded or flared natural gas. This feature makes Bitcoin's energy consumption more efficient than critics suggest:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.
+To fully assess the environmental impact of Bitcoin, it is crucial to understand that energy consumption is not inherently bad. Bitcoin uses **less than 1%** of the world's energy, and much of the energy consumed is **renewable or otherwise wasted**. Bitcoin miners often utilize energy sources that would otherwise go unused, such as stranded or flared natural gas. This feature makes Bitcoin's energy consumption more efficient than critics suggest.
 
 ![Image](assets/5/4.webp)
 
-Bitcoin's energy consumption must also be compared to that of traditional financial systems. The banking sector, with its extensive infrastructure, including ATMs, branches, and data centers, consumes significantly more energy. Furthermore, the U.S. military, which underpins the global financial system, is one of the largest consumers of fossil fuels globally. In comparison, Bitcoin offers a far more efficient alternative for securing and transferring wealth:contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}.
+Bitcoin's energy consumption must also be compared to that of traditional financial systems. The banking sector, with its extensive infrastructure, including ATMs, branches, and data centers, consumes significantly more energy. Furthermore, the U.S. military, which underpins the global financial system, is one of the largest consumers of fossil fuels globally. In comparison, Bitcoin offers a far more efficient alternative for securing and transferring wealth.
 
 ### Crime and illicit activity
 
@@ -599,9 +601,9 @@ Another major criticism of Bitcoin is its association with criminal activities. 
 
 #### The reality of Bitcoin and crime
 
-While it is true that Bitcoin has been used in illegal transactions, its **traceability** makes it less ideal for criminal enterprises. Every Bitcoin transaction is recorded on the blockchain, a public ledger that allows for the tracking of funds, and law enforcement agencies have successfully traced and seized illicit Bitcoin in numerous cases, debunking the myth that Bitcoin is untraceable:contentReference[oaicite:4]{index=4}.
+While it is true that Bitcoin has been used in illegal transactions, its **traceability** makes it less ideal for criminal enterprises. Every Bitcoin transaction is recorded on the blockchain, a public ledger that allows for the tracking of funds, and law enforcement agencies have successfully traced and seized illicit Bitcoin in numerous cases, debunking the myth that Bitcoin is untraceable.
 
-In contrast, traditional fiat currencies, such as the U.S. dollar, remain the most widely used for large-scale crime. Cash transactions, in particular, are anonymous and nearly impossible to trace. Bitcoin, by comparison, can reduce crime through **smart contracts** and **multi-signature transactions**, which require multiple parties to approve a transaction, thus offering more security:contentReference[oaicite:5]{index=5}.
+In contrast, traditional fiat currencies, such as the U.S. dollar, remain the most widely used for large-scale crime. Cash transactions, in particular, are anonymous and nearly impossible to trace. Bitcoin, by comparison, can reduce crime through **smart contracts** and **multi-signature transactions**, which require multiple parties to approve a transaction, thus offering more security.
 
 ![Image](assets/5/5.webp)
 
@@ -611,7 +613,7 @@ Bitcoin also faces technical challenges, particularly in terms of **scalability*
 
 #### Layered solutions to scalability
 
-To address these issues, Bitcoin developers have proposed and implemented **second-layer solutions**, such as the **Lightning Network**. The Lightning Network enables transactions to be conducted off-chain, reducing the load on the main Bitcoin blockchain while allowing for faster and cheaper transactions. By utilizing these second layers, Bitcoin can maintain its security while vastly improving scalability:contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}.
+To address these issues, Bitcoin developers have proposed and implemented **second-layer solutions**, such as the **Lightning Network**. The Lightning Network enables transactions to be conducted off-chain, reducing the load on the main Bitcoin blockchain while allowing for faster and cheaper transactions. By utilizing these second layers, Bitcoin can maintain its security while vastly improving scalability.
 
 ![Image](assets/5/6.webp)
 
@@ -621,11 +623,11 @@ Bitcoin’s culture has also been a target of criticism. Some describe the Bitco
 
 #### Embracing criticism for progress
 
-While the **toxicity** criticism is valid in some respects, the blunt nature of Bitcoin debates stems from the desire to protect Bitcoin’s fundamental principles. In the Open-Source community, rigorous scrutiny and direct communication are considered essential for ensuring the integrity of the project. Many in the Bitcoin community believe that this cultural characteristic is what keeps Bitcoin free from dilution by corporate or governmental interests:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}.
+While the **toxicity** criticism is valid in some respects, the blunt nature of Bitcoin debates stems from the desire to protect Bitcoin’s fundamental principles. In the Open-Source community, rigorous scrutiny and direct communication are considered essential for ensuring the integrity of the project. Many in the Bitcoin community believe that this cultural characteristic is what keeps Bitcoin free from dilution by corporate or governmental interests.
 
 ### Conclusion: Understanding Bitcoin's criticism
 
-Bitcoin faces a broad range of criticism, but many of these criticisms are based on misunderstandings or misinterpretations of the technology. Whether it's energy consumption, criminal activity, or scalability, Bitcoin’s critics often overlook the solutions being developed to address these concerns. By acknowledging and addressing these criticisms, the Bitcoin community can continue to improve and evolve the technology, ensuring its place in the future of global finance:contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}.
+Bitcoin faces a broad range of criticism, but many of these criticisms are based on misunderstandings or misinterpretations of the technology. Whether it's energy consumption, criminal activity, or scalability, Bitcoin’s critics often overlook the solutions being developed to address these concerns. By acknowledging and addressing these criticisms, the Bitcoin community can continue to improve and evolve the technology, ensuring its place in the future of global finance.
 
 # Business Projects
 <partId>9aeaf816-6ab6-43eb-9894-34baea7c5941</partId>
