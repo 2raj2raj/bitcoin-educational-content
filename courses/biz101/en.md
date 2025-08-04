@@ -73,7 +73,7 @@ A good currency possesses several essential properties that make it effective fo
 
 In the modern era, currencies became fully permissioned under the seigniorage system, meaning only authorized entities—such as central banks or treasuries—could mint coins or print banknotes. Individuals are no longer legally permitted to produce currency, ensuring centralized control over its issuance and supply.
 
-Today, the principle of seigniorage is being challenged by the Bitcoin cryptocurrency, which operates without centralized control. Bitcoin is a "permissionless" system, where anyone can participate in using the currency without permission and contribute to its creation through mining. This decentralization removes the monopoly of issuance from governments, raising questions about a potential return to free-market competitive currency systems.
+Today, the principle of seigniorage is being challenged by the Bitcoin cryptocurrency, which operates without centralized control. Bitcoin is a "permissionless" system, where anyone can participate in using the currency without permission and contribute to its creation through the mining process. This decentralization removes the monopoly of issuance from governments, raising questions about a potential return to free-market competitive currency systems.
 
 - **Unit of Account**: A currency should provide a standard measure for comparing the value of goods and services. This simplifies trade, making pricing transparent and consistent across all transactions.
 
@@ -168,7 +168,7 @@ Overall, this process is intricate, time-consuming, and costly for what should b
 
 ### Limitations of existing solutions
 
-The traditional payments industry represents an annual economy of approximately $2.2 trillion, roughly one-tenth of the GDP of the United States, or equivalent to the GDP of France. Because currencies function as permissioned networks, there is limited competition, making this "service" more akin to a tax imposed on the productive economy. In addition to the cost burdens it creates, there are several other limitations, as outlined below.
+The traditional payments industry represents an annual economy of approximately $2.2 trillion, roughly one-tenth of the United States' GDP, or equivalent to the GDP of France. Because currencies function as permissioned networks, there is limited competition, making this "service" more akin to a tax imposed on the productive economy. In addition to the cost burdens it creates, there are several other limitations, as outlined below.
 
 | Limitation                       | Explanation                                                                                                                                                                                                                        | Impact                                                                                               |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -596,7 +596,7 @@ Counterintuitively, it’s probably best to start with a very small purchase wit
 
 As previously stated, it’s wise only to invest excess liquidity that you won’t need for several years. Any poorly understood strategy risks putting you in a difficult position if you suddenly need to cash out at a bad time.
 
-In addition to starting small, it’s useful for corporate treasuries to adopt a measured allocation strategy. At one end of the spectrum, some companies, such as MicroStrategy, have taken an extreme approach by committing a substantial portion of their excess treasury funds to Bitcoin, reflecting a strong institutional conviction. Conversely, a more conservative and arguably rational strategy might involve allocating approximately 5% of the corporate treasury to Bitcoin, striking a balance between potential gains and risk management and liquidity requirements.
+In addition to starting small, it’s useful for corporate treasuries to adopt a measured allocation strategy. At one end of the spectrum, some companies, such as MicroStrategy, have taken an extreme approach by committing a substantial portion of their excess treasury funds to Bitcoin, reflecting a strong institutional conviction. Conversely, a more conservative and arguably rational strategy might involve allocating approximately 5% of the corporate treasury to Bitcoin, striking a balance between potential gains, risk management, and liquidity requirements.
 
 Visualize this spectrum as a scale, from minimal exposure, ensuring the company retains sufficient liquidity for operational needs, to an aggressive stance aimed at leveraging the anticipated long-term value appreciation of Bitcoin. While aggressive allocation may yield higher returns, a modest allocation helps mitigate volatility, ensuring that the company’s financial foundation remains secure while still benefiting from the innovative potential of Bitcoin within its treasury operations.
 
@@ -920,7 +920,7 @@ At this scale, the overarching goal is not simply to accept Bitcoin, but to do s
 
 Within an enterprise context, operational complexity becomes especially pronounced. A large corporation may need to accommodate multiple departments (sales, marketing, devops, finance, and accounting), each with distinct responsibilities and data requirements. In this scenario, a Bitcoin payment platform must offer highly granular role management, allowing each department to access precisely the functions relevant to their tasks while preserving rigorous control over security and data integrity. Equally essential is the capacity to customize workflows; for example, inbound payments might trigger updates in inventory systems, send automated notifications to sales managers, and update ledger entries for the finance team, all in real-time. Point-of-sale devices themselves are commonly tailored to the enterprise environment, featuring custom software interfaces that align with the company’s branding and operational needs.
 
-**Security** is paramount for enterprises with a scale. High volumes of transactions and potentially large sums of Bitcoin require a robust infrastructure capable of defending against malicious attacks or insider threats. Best practices often include multi-signature with timelocks treasury configurations, carefully audited codebases, and strict adherence to relevant regulatory frameworks. Furthermore, compliance with local and international financial regulations is integral to preserving the corporation’s reputation and maintaining its license to operate.
+**Security** is paramount for enterprises on a scale. High volumes of transactions and potentially large sums of Bitcoin require a robust infrastructure capable of defending against malicious attacks or insider threats. Best practices often include multi-signature with timelocks treasury configurations, carefully audited codebases, and strict adherence to relevant regulatory frameworks. Furthermore, compliance with local and international financial regulations is integral to preserving the corporation’s reputation and maintaining its license to operate.
 
 The **custom development** involved in creating or integrating an enterprise-grade Bitcoin payment solution extends beyond coding a few application features. It typically requires architectural design, thorough testing protocols, and a structured roll-out that may span multiple phases (initial pilot programs, limited market tests, and eventual global deployment).
 
@@ -1018,8 +1018,8 @@ This will enable you to compute the difference later on to determine the profit 
 
 **Example:** A business buys 1 BTC at $30,000. Later, it sells 0.5 BTC for $20,000. To calculate the profit or loss, the business must:
 
-- Have recorded the time, the fiat cost price, and quantity of Bitcoin acquired
-- Have recorded  the time, the fiat sell pric,e and quantity of Bitcoin sold
+- Have recorded the time, the fiat cost price, and the quantity of Bitcoin acquired
+- Have recorded  the time, the fiat sell price, and the quantity of Bitcoin sold
 - Determine the cost of Bitcoin sold:  0.5 BTC: $30,000 ÷ 2 = $15,000.
 - Compare the sale price with the cost price: $20,000 (sale price) - $15,000 (cost price) = $5,000 profit.
 - Update the Bitcoin holdings with the new cost price
@@ -1071,7 +1071,7 @@ The approach to Bitcoin accounting varies with the geography:
 
 - **United States:** The IRS classifies Bitcoin as **property, similar to stocks, bonds or real estate**. This classification means that any transaction involving cryptocurrency, such as earning, selling, trading, or even using it to make purchases, can create a taxable event, and gains are subject to capital gains tax.
 - **European Union:** Member states generally treat Bitcoin as a speculative asset rather than a functional currency. Therefore, gains often are subject to capital gains tax.
-- **Asia:** Countries like Singapore and Japan have adopted progressive regulatory frameworks, treating Bitcoin transactions favorably in specific contexts. But Bitcoin is generally accounted for as **intangible assets**, and it is measured at fair value at the reporting date, with changes recognized in profit or loss.
+- **Asia:** Countries like Singapore and Japan have adopted progressive regulatory frameworks, treating Bitcoin transactions favorably in specific contexts. However, Bitcoin is generally accounted for as **intangible assets**, and it is measured at its fair value as of the reporting date, with any changes recognized in profit or loss.
 
 It is essential to understand the regulations in your operating country and adapt your accounting practices accordingly.
 
@@ -1104,7 +1104,7 @@ Valuation methods are accounting techniques used to determine the cost basis of 
 - **First In, First Out (FIFO)**: Common in jurisdictions like Australia and India, this method values Bitcoin based on the earliest acquisition cost. This can become quite **complex** as it may require tracking each fraction of a bitcoin separately when a sale occurs.
 - **Weighted Average Cost (WAC)**: Often preferred for high-volume transactions due to its **simplicity**, as seen in countries like the United States.
 
-It is highly recommended to maintain a detailed workbook that tracks Bitcoin costs **from the moment a company starts buying or accepting Bitcoin as payment** to ensure accurate and organized record-keeping. That consideration alone should be top of mind when choosing a software solution to accept Bitcoin payments or to buy Bitcoin.
+It is highly recommended to maintain a detailed workbook that tracks Bitcoin costs from the moment a company starts buying or accepting Bitcoin as payment, ensuring accurate and organized record-keeping. That consideration alone should be top of mind when choosing a software solution to accept Bitcoin payments or to buy Bitcoin.
 
 ### Accounting for transactions in Retail and E-commerce
 
