@@ -247,7 +247,7 @@ The Lightning Network is **a protocol and a network** that facilitates Bitcoin t
 - **Payment network:** A web of payment channels between multiple parties forms a payment network (routing and interconnection).
 - **Off-chain transactions:** Transactions occur between parties but are **not immediately published** on Bitcoin's main blockchain (**"off-chain"**).
 - **On-chain settlements:** Only **the final balance** of a channel's transactions is published on the Bitcoin main blockchain (**"on-chain"**), allowing numerous transactions to occur in the meantime. This bundling of multiple payments reduces congestion and, consequently, lowers fees compared to making numerous on-chain transactions.
-- **Channel closure:** A user can close their channel at any time and reclaim their Bitcoin by publishing the latest transaction state. This is the principle of transactions being **"publishable" at any moment but "unpublished"** until necessary. The exit (channel closure) can be unilateral (decided by any of the 2 parties at any time) or mutually decided (resulting in lower on-chain fees)
+- **Channel closure:** A user can close their channel at any time and reclaim their Bitcoin by publishing the latest transaction state. This is the principle of transactions being **"publishable" at any moment but "unpublished"** until necessary. The exit (channel closure) can be unilateral (decided by any of the two parties at any time) or mutually decided (resulting in lower on-chain fees)
 
 ![BIZ101](assets/en/04.webp)
 
@@ -484,7 +484,7 @@ The adoption of Bitcoin by financial institutions further strengthens its positi
 
 Recent statements by **BlackRock** highlight Bitcoin’s potential as a store-of-value asset and a portfolio diversification tool. The global institutional giant recently suggested that **Bitcoin’s user growth is outpacing that of the internet** or mobile phones, driven notably by **demographic and generational shifts**, as well as increasing distrust of traditional financial institutions (!). Due to its scarce, non-sovereign, and decentralized nature, some investors view Bitcoin as a safe haven option **in times of fiscal and monetary instability**, fear, or disruptive geopolitical events.
 
-The **Spot Bitcoin ETFs**, launched in January 2024, have enjoyed phenomenal success—the **most successful** ETF launch in history—with nearly $20 billion in net inflows. from January to November. That’s about four times better than the next-best ETF launch, the Nasdaq-100 QQQ. These ETFs provide easier and more regulated access to Bitcoin, which has **further legitimized** it and attracted a significant influx of institutional capital.
+The **Spot Bitcoin ETFs**, launched in January 2024, have enjoyed phenomenal success—the **most successful** ETF launch in history—with nearly $20 billion in net inflows, from January to November. That’s about four times better than the next-best ETF launch, the Nasdaq-100 QQQ. These ETFs provide easier and more regulated access to Bitcoin, which has **further legitimized** it and attracted a significant influx of institutional capital.
 
 Bitcoin ETFs lead by a wide margin in terms of **institutional adoption**, surpassing the top ten fastest-growing ETFs in both the number of institutions involved and the size of assets under management (AUM). The success of these Bitcoin ETFs underscores the growing demand for investment vehicles linked to digital assets, thereby solidifying Bitcoin’s place in the traditional financial landscape.
 
@@ -535,7 +535,7 @@ Let’s remember that its relatively low total market capitalization, compared t
 
 ### The decision to allocate corporate treasury in Bitcoin
 
-Your position within the company will heavily influence the **decision-making process** for investing in Bitcoin. If you are a **majority owner, you are free** to allocate excess treasury funds according to your own judgment. Conversely, if you are a partner or shareholder within a collective decision-making structure, you will need to go through joint deliberations, which can complicate matters.
+Your position within the company will significantly influence the **decision-making process** for investing in Bitcoin. If you are a **majority owner, you are free** to allocate excess treasury funds according to your own judgment. Conversely, if you are a partner or shareholder within a collective decision-making structure, you will need to go through joint deliberations, which can complicate matters.
 
 In this second scenario, harmonizing different points of view becomes essential, as it largely **depends on each stakeholder’s understanding of the Bitcoin asset**. As the saying goes, “Bitcoin is everything people don’t know about computers combined with everything they don’t understand about money.” Even if one partner has made the effort to thoroughly understand Bitcoin, conveying this knowledge to others can be challenging. In such cases, it is **advisable to bring in an external resource** to avoid having the idea too closely identified with one individual, which could generate resistance.
 
