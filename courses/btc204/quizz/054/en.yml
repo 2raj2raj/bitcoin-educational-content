@@ -8,6 +8,6 @@ wrong_answers:
   - SHA256
 
 explanation: |
-  The ECDH (Elliptic-Curve Diffie-Hellman) algorithm is used in Silent Payments between the receiver's scan pair of keys and the sum of the sender's pair of keys to establish the shared secret that will allow for the derivation of the unique payment address.
+  The ECDH (Elliptic-Curve Diffie-Hellman) algorithm is used in Silent Payments to establish the shared secret between the receiver's scan pair of keys and the sum of the sender's pair of keys, which allows for the derivation of the unique payment address.
 
-reviewed: false
+reviewed: true
