@@ -8,6 +8,6 @@ wrong_answers:
   - Receive bitcoins from participants to mix them.
 
 explanation: |
-  The role of coordinators is to connect the different users and to construct and then broadcast the collaborative transaction.
+  The role of coordinators is to connect different users and construct and broadcast the collaborative transaction.
 
-reviewed: false
+reviewed: 771682
