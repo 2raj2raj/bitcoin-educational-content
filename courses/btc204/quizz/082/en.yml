@@ -8,6 +8,6 @@ wrong_answers:
   - The broadcasting of the transaction.
 
 explanation: |
-  To prevent the coordinator from being able to link a specific output with an input, users change their Tor identity before sending their clear-text receiving addresses to the coordinator.
+  To prevent the coordinator from linking a specific output to an input, users change their Tor identity before sending their clear-text receiving addresses to the coordinator.
 
-reviewed: false
+reviewed: true
