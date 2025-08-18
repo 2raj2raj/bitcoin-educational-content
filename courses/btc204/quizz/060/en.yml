@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Labeling is a good practice that helps to remember the origin of a UTXO.
 
-reviewed: false
+reviewed: true
