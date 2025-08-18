@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Silent Payments operate without a notification transaction, which saves on transaction fees and avoids overloading the blockchain.
 
-reviewed: false
+reviewed: true
