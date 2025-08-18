@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   In exchange for foregoing the notification transaction, the receiver must scan all Bitcoin transactions that comply with the standard in an attempt to find payments addressed to them.
 
-reviewed: false
+reviewed: true
