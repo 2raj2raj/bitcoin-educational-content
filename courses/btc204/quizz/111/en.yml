@@ -8,4 +8,6 @@ wrong_answers:
   - A transaction that involves the recipient in the inputs
 
 explanation: |
-  Stonewall x2 is a specific form of Bitcoin transaction aimed at increasing user privacy during a spend, but this time by collaborating with a third party not involved in the spend. This method functions like a mini-coinjoin between two participants, while at the same time making a payment to a third person.
+  Stonewall x2 is a specific form of Bitcoin transaction designed to enhance user privacy during a spend, achieved by collaborating with a third party not involved in the transaction. This method functions like a mini-coinjoin between two participants, while simultaneously making a payment to a third person.
+
+reviewed: true
