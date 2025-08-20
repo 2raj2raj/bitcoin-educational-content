@@ -364,7 +364,7 @@ Let's take an example to understand this process well:
 
 ![LNP201](assets/en/28.webp)
 
-Even if, in this case, Bob has no economic interest in trying to cheat, if he does so anyway, Alice also benefits from symmetric protection, offering her the same guarantees.
+Even if, in this case, Bob has no economic interest in cheating, if he does so anyway, Alice also benefits from symmetric protection, which offers her the same guarantees.
 
 **What should you take away from this chapter?**
 
@@ -372,7 +372,7 @@ The **commitment transactions** on the Lightning Network include security mechan
 
 This security system ensures that participants adhere to the rules of the Lightning Network, and they cannot profit from publishing old commitment transactions.
 
-At this point in the training, you now know how Lightning channels are opened and how transactions within these channels work. In the next chapter, we will discover the different ways to close a channel and recover your bitcoins on the main blockchain.
+At this point in the training, you now know how Lightning channels are opened and how transactions within these channels work. In the next chapter, we will explore the various methods for closing a channel and recovering your bitcoins on the main blockchain.
 
 ## Channel Closure
 
@@ -684,7 +684,7 @@ These outputs associated with the HTLC share exactly the same conditions, namely
 These conditions apply only if the channel is closed (i.e., a commitment transaction is published on-chain) while the HTLC is still active on Lightning, meaning the payment between Alice and Bob has not yet been finalized, and the HTLCs have not yet expired. Thanks to these conditions, Suzie can recover the 40,000 satoshis of the HTLC owed to her by providing _s_. Otherwise, Alice recovers the funds after the expiration of the timelock, because if Suzie does not know _s_, it means she has not transferred the 40,000 satoshis to Bob, and therefore, Alice's funds are not owed to her.
 
 Furthermore, if the channel is closed while several HTLCs are pending, there will be as many additional outputs as there are ongoing HTLCs.
-If the channel is not closed, then after the expiration or success of the Lightning payment, new commitment transactions are created to reflect the new, now stable, state of the channel, that is, without any pending HTLCs. The outputs related to the HTLCs can therefore be removed from the commitment transactions.
+If the channel is not closed, new commitment transactions are created after the expiration or success of the Lightning payment to reflect the new, stable state of the channel, which is now without any pending HTLCs. The outputs related to the HTLCs can therefore be removed from the commitment transactions.
 ![LNP201](assets/en/60.webp)
 
 Finally, in the case of a cooperative channel closure while an HTLC is active, Alice and Suzie stop accepting new payments and wait for the resolution or expiration of the ongoing HTLCs. This allows them to publish a lighter closing transaction, without the outputs related to the HTLCs, thereby reducing fees and avoiding the wait for a possible timelock.
@@ -751,10 +751,10 @@ To make a payment of 100,000 sats from Alice to Bob, the routing options are lim
 
 But since Alice does not know the exact distribution of funds in each channel, she must estimate the optimal route probabilistically, taking into account the following criteria:
 
-- **Probability of success**: a channel with a higher total capacity is more likely to contain sufficient liquidity. For example, the channel between node 2 and node 3 has a total capacity of 110,000 sats, so it is unlikely to find 100,000 sats or more on the side of node 2, although it remains possible.
-- **Transaction fees**: in choosing the best route, the sending node also considers the fees applied by each intermediate node and seeks to minimize the total routing cost.
-- **Expiration of HTLCs**: to avoid blocked payments, the expiration time of HTLCs is also a parameter to consider.
-- **Number of intermediate nodes**: finally, more broadly, the sending node will seek to find a route with the fewest possible nodes to reduce the risk of failure and limit Lightning transaction fees.
+- **Probability of success**: A channel with a higher total capacity is more likely to contain sufficient liquidity. For example, the channel between node 2 and node 3 has a total capacity of 110,000 sats, so it is unlikely to find 100,000 sats or more on the side of node 2, although it remains possible.
+- **Transaction fees**: In choosing the best route, the sending node also considers the fees applied by each intermediate node and seeks to minimize the total routing cost.
+- **Expiration of HTLCs**: To avoid blocked payments, the expiration time of HTLCs is also a parameter to consider.
+- **Number of intermediate nodes**: Finally, more broadly, the sending node will seek to find a route with the fewest possible nodes to reduce the risk of failure and limit Lightning transaction fees.
 
 By analyzing these criteria, the sending node can test the most probable routes and attempt to optimize them. In our example, Alice could rank the best routes as follows:
 
@@ -992,7 +992,7 @@ In the initial chapters, we explored how two parties can conduct transactions ou
 ![LNP201](assets/en/76.webp) 2. **Transactions in the Channel**: In this channel, it is possible to carry out numerous transactions without publishing them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
 ![LNP201](assets/en/77.webp)
 
-- **Securing and Closing**: Participants commit to the new state of the channel by exchanging revocation keys to secure the funds and prevent any cheating. Both parties can close the channel cooperatively by making a new transaction on the Bitcoin blockchain, or as a last resort, through a forced closure. This latter option, although less efficient due to its length and sometimes poor evaluation in terms of fees, still allows for the recovery of funds. In case of cheating, the victim can punish the cheater by recovering all the funds from the channel on the blockchain.
+- **Securing and Closing**: Participants commit to the new state of the channel by exchanging revocation keys to secure the funds and prevent any cheating. Both parties can close the channel cooperatively by making a new transaction on the Bitcoin blockchain, or as a last resort, through a forced closure. This latter option, although less efficient due to its length and sometimes poor evaluation in terms of fees, still allows for the recovery of funds. In the event of cheating, the victim can penalize the cheater by recovering all the funds from the channel on the blockchain.
 
 ![LNP201](assets/en/78.webp)
 
