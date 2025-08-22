@@ -511,7 +511,7 @@ The original software installed on Antminer's mining machines is limited in func
 
 There are several methods for installing Braiins OS+ on an ASIC. You can refer to this guide as well as the [official Braiins documentation](https://academy.braiins.com/en/braiins-os/about/).
 
-Here, we will see how to easily install Braiins OS+ directly on the memory of your Antminer using the BOS toolbox software, replacing the original operating system, through the detailed steps below.
+Here, we will guide you through the process of easily installing Braiins OS+ directly on the memory of your Antminer using the BOS toolbox software, replacing the original operating system, with detailed steps outlined below.
 
 1. Power on your Antminer and connect it to your internet box.
 2. Download the BOS toolbox for Windows / Linux.
@@ -613,7 +613,7 @@ Next, it's time to remove the original fan, taking care not to damage the other 
 
 ![image](assets/en/50.webp)
 
-Once the original fan is removed, you will notice that the connectors of the new Noctua fan do not match those of the original fan. Indeed, the new fan has 3 wires, including a yellow wire that allows for speed control. However, this wire will not be used in this specific case. To connect the new fan, it is therefore recommended to use a special adapter. However, it is important to note that this adapter can sometimes be difficult to find.
+Once the original fan is removed, you will notice that the connectors of the new Noctua fan do not match those of the original fan. Indeed, the new fan has 3 wires, including a yellow wire that allows for speed control. However, this wire will not be used in this specific case. To connect the new fan, it is therefore recommended to use a special adapter. However, it is essential to note that this adapter can sometimes be challenging to locate.
 
 ![image](assets/en/51.webp)
 
@@ -622,7 +622,7 @@ If you do not have this adapter, you can still proceed to connect the new fan us
 ![image](assets/en/52.webp)
 ![image](assets/en/53.webp)
 
-On the new fan, use a cutter and carefully cut the contours of the main sheath at 1 cm without cutting the sheaths of the cables underneath.
+For the new fan, use a cutter to carefully cut the contours of the main sheath at 1 cm, without cutting the sheaths of the cables underneath.
 
 ![image](assets/en/54.webp)
 
@@ -728,7 +728,7 @@ However, since everything in Bitcoin is based on probability, it sometimes happe
 
 If you like to gamble, you can try it, but our guide will not focus on that direction. Instead, we will concentrate on the mining pool that best suits our needs for creating a heating system.
 
-Considerations to have when choosing a mining pool are the operation of the pool's rewards, which can vary, as well as the minimum amount before being able to withdraw rewards to an address. For example, Braiins, which offers the software we are discussing here, also offers a pool. This pool features a reward system called "Score" that incentivizes miners to mine for extended periods of time. Participation includes an uptime factor expressed as a "scoring hashrate". In our case, where we want a heating system that can be turned on for only a few minutes, this is not the ideal reward system. We prefer a reward system that gives us an equal reward for each participation. Additionally, the minimum withdrawal amount for Braiins Pool is 100,000 sats, and it is on-chain. So we lose some sats in transaction fees, and a portion of our reward can be locked if we don't mine enough during the winter.
+Considerations to have when choosing a mining pool include the operation of the pool's rewards, which can vary, as well as the minimum amount required to withdraw rewards to an address. For example, Braiins, which offers the software we are discussing here, also offers a pool. This pool features a reward system called "Score" that incentivizes miners to mine for extended periods of time. Participation includes an uptime factor expressed as a "scoring hashrate". In our case, where we want a heating system that can be turned on for only a few minutes, this is not the ideal reward system. We prefer a reward system that gives us an equal reward for each participation. Additionally, the minimum withdrawal amount for Braiins Pool is 100,000 sats, and it is on-chain. So we lose some sats in transaction fees, and a portion of our reward can be locked if we don't mine enough during the winter.
 
 The reward model that interests us is PPS, which stands for "pay-per-share". This means that the miner will receive a reward for each valid share. There is also a variant of this system, FPPS (Full Pay Per Share), which not only divides the coinbase reward, but also the transaction fees included in the block. The mining pools we recommend for connecting your mining/heating are Linecoin Pool (FPPS) and Nicehash (PPS).
 
@@ -764,7 +764,7 @@ Braiins OS+ supports overclocking, underclocking of ASICs, and autotuning. It al
 
 Before 2018, miners had two ways to gain an advantage in their activity: finding electricity at a reasonable cost and buying more efficient hardware. However, in 2018, a new advancement was discovered in the field of mining software and firmware, called AsicBoost. This technique allows miners to reduce their costs by approximately 13% by modifying the firmware running on their devices.
 
-Today, there is a new advancement in the software and firmware mining sector called autotuning, which offers an even greater advantage than AsicBoost. ASICs are composed of many small computer chips that perform hashing. These chips are made of silicon, the same element widely used in semiconductors and other microelectronic components. The key understanding here is that not all silicon chips are identical; each can vary slightly in its electrical properties. Hardware manufacturers are aware of this and publish the performance specifications of their mining machines based on the lower limit of their tolerances. In other words, manufacturers know the frequency that works best for average chips, and they use this frequency uniformly for all chips in the machine.
+Today, a new advancement in the software and firmware mining sector has emerged, called autotuning, which offers an even greater advantage than AsicBoost. ASICs are composed of many small computer chips that perform hashing. These chips are made of silicon, the same element widely used in semiconductors and other microelectronic components. The key understanding here is that not all silicon chips are identical; each can vary slightly in its electrical properties. Hardware manufacturers are aware of this and publish the performance specifications of their mining machines based on the lower limit of their tolerances. In other words, manufacturers know the frequency that works best for average chips, and they use this frequency uniformly for all chips in the machine.
 
 This puts an upper limit on the hash rate a machine can have. Autotuning is a process in which algorithms evaluate the optimal frequencies for chip-by-chip hashing, instead of treating the entire machine as a single unit. This means that a higher-quality chip, which can perform more hashes per second, will have a higher frequency, while a lower-quality chip, which can perform relatively fewer hashes, will have a lower frequency. Chip-level autotuning is a method for optimizing the performance of an ASIC by adjusting the software and firmware running on it.
 
