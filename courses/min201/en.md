@@ -36,7 +36,7 @@ This training takes you to the heart of the Bitcoin mining industry, providing b
 In this section, we will provide a comprehensive understanding of Bitcoin mining. We will cover the technical functioning of mining, its role in the Bitcoin protocol, and its economic and geopolitical implications. You will also explore the complex relationship between bitcoin price and hashrate, as well as issues related to sovereignty and regulation in the industry.
 
 **Section 3: Home Mining and Heat Reuse**  
-Next, we will delve into the practical application of the concept of Attakai, which aims to democratize home mining by transforming used S9 miners into home heating devices. You will learn how to purchase and modify a used ASIC, as well as prepare the necessary equipment for hardware modifications.
+Next, we will explore the practical application of the Attakai concept, which aims to democratize home mining by converting used S9 miners into home heating devices. You will learn how to purchase and modify a used ASIC, as well as prepare the necessary equipment for hardware modifications.
 
 **Section 4: Attakai - Modifying an Antminer S9's Software**  
 Here, you will learn how to configure your Antminer S9 for home use. We will guide you through setting up a Wi-Fi/Ethernet bridge, resetting your device, installing BraiinsOS+, and optimizing it for optimal mining performance.
@@ -60,7 +60,7 @@ Ready to discover the world of Bitcoin mining and take on the practical challeng
 
 ### Mining explained: the puzzle analogy
 
-To explain the concept of mining in a simplified way, a relevant analogy can be used: that of a puzzle. Just like a puzzle, mining is a complex task to perform, but easy to verify once completed. In the context of Bitcoin mining, miners strive to solve a digital puzzle quickly. The first miner to solve the puzzle presents their solution to the entire network, which can then easily verify its validity. This successful verification allows the miner to validate a new block and add it to the Bitcoin Timechain. In recognition of their work, which involves significant costs, the miner is rewarded with a certain number of bitcoins. This reward serves as a financial incentive for miners to continue their work of validating transactions and securing the Bitcoin network.
+To explain the concept of mining in a simplified way, a relevant analogy can be used: that of a puzzle. Just like a puzzle, mining is a complex task to perform, but easy to verify once completed. In the context of Bitcoin mining, miners strive to solve a complex digital puzzle as quickly as possible. The first miner to solve the puzzle presents their solution to the entire network, which can then easily verify its validity. This successful verification allows the miner to validate a new block and add it to the Bitcoin Timechain. In recognition of their work, which involves significant costs, the miner is rewarded with a certain number of bitcoins. This reward serves as a financial incentive for miners to continue their work of validating transactions and securing the Bitcoin network.
 
 ![image](assets/en/01.webp)
 
@@ -76,7 +76,7 @@ Initially, the CPU era dominated, where miners used their personal computers for
 ![image](assets/en/02.webp)
 
 ASICs are chips, comparable to a CPU chip; however, they are developed to perform only one specific type of calculation in the most efficient way possible. In other words, a CPU is capable of performing a multitude of different types of calculations without being particularly optimized for any one type of calculation, whereas an ASIC is designed to perform only one type of calculation, but very efficiently. In the case of Bitcoin ASICs, they are specifically designed for calculating the SHA-256 algorithm.
-Nowadays, miners exclusively use ASICs dedicated to this operation, optimized to test the maximum number of combinations with the smallest possible energy consumption and as quickly as possible. These computers, which are incapable of performing tasks other than Bitcoin mining, serve as a tangible testament to the continuous evolution and increasing specialization of the Bitcoin mining industry. This constant evolution reflects the intrinsic dynamics of Bitcoin, where a difficulty adjustment ensures the production of a block every ten minutes despite the exponential increase in mining capacity.
+Nowadays, miners exclusively use ASICs dedicated to this operation, optimized to test the maximum number of combinations with the smallest possible energy consumption and as quickly as possible. These computers, which are specifically designed for Bitcoin mining, serve as a tangible testament to the continuous evolution and increasing specialization of the Bitcoin mining industry. This constant evolution reflects the intrinsic dynamics of Bitcoin, where a difficulty adjustment ensures the production of a block every ten minutes despite the exponential increase in mining capacity.
 
 To illustrate the intensity of this process, consider a typical miner capable of achieving 14 TeraHash per second, or 14 trillion attempts every second to find the correct hash. At the scale of the Bitcoin network, we now reach approximately 300 HexaHash per second, highlighting the collective power mobilized in Bitcoin mining.
 
@@ -244,11 +244,11 @@ This situation also highlights the resilience of Bitcoin, which is often assesse
 
 ### Hash rate and reward
 
-Mining may establish a floor price for Bitcoin, below which miners would sell at a loss. The cost of mining significantly influences the price, as illustrated by the ban on mining in China, where the hash rate and price dropped significantly but quickly recovered. Focusing solely on the price can be misleading. Studying the cost, via profitability calculators, offers a more balanced perspective. However, the market can behave irrationally, with miners potentially being forced to sell at a loss, which could lower the price below the mining cost. To assess the health of Bitcoin and its decentralization, an equation incorporating various factors, such as the number of nodes and the price, could be developed. This approach could provide a more nuanced analysis of Bitcoin compared to discussions based solely on price.
+Mining may establish a floor price for Bitcoin, below which miners would sell at a loss. The cost of mining significantly influences the price, as illustrated by the ban on mining in China, where the hash rate and price dropped significantly but quickly recovered. Focusing solely on the price can be misleading. Studying the cost, via profitability calculators, offers a more balanced perspective. However, the market can behave irrationally, with miners potentially being forced to sell at a loss, which could lower the price below the cost of mining. To assess the health of Bitcoin and its decentralization, an equation incorporating various factors, such as the number of nodes and the price, could be developed. This approach could provide a more nuanced analysis of Bitcoin compared to discussions based solely on price.
 
 ### Mining for profit or for the network?
 
-The question is profound and encompasses several dimensions of Bitcoin mining. The balance between seeking profit and contributing to the security and distribution of the Bitcoin network is a constant dilemma for miners. The debate continues within the Bitcoin community, with strong arguments on both sides.
+The question is profound and encompasses several dimensions of Bitcoin mining. The balance between seeking profit and contributing to the security and distribution of the Bitcoin network is a constant dilemma for miners. The debate within the Bitcoin community continues, with strong arguments on both sides.
 
 - Mining for profit:
 
@@ -270,7 +270,7 @@ The Attakai initiative highlights the importance of contributing to the network 
 
 To address the crucial issue of wealth through mining, it is important to consider various perspectives and approaches. Questions about the profitability of mining are common, with inquiries surrounding the purchase of shares in companies like Riot or the leasing of mining machines in countries with low energy costs, such as Iceland or Russia. Before venturing into mining, a key consideration is to compare the profitability of mining with the direct purchase of Bitcoin. If the cost of mining a Bitcoin exceeds the cost of buying it directly, it is generally wiser to purchase the Bitcoin directly. This avoids the multiple challenges and costs associated with the mining process.
 
-However, mining offers unique opportunities to participate in the Bitcoin ecosystem. For example, mining Bitcoin in winter can be a clever way to generate Bitcoin revenue while also heating your home. Another option is to invest in companies that sell mining equipment and store and manage the machines in locations with low energy costs, thus providing access to favorable electricity rates without the hassle of managing the equipment.
+However, mining offers unique opportunities to participate in the Bitcoin ecosystem. For example, mining Bitcoin in winter can be a clever way to generate Bitcoin revenue while also keeping your home warm. Another option is to invest in companies that sell mining equipment and store and manage the machines in locations with low energy costs, thus providing access to favorable electricity rates without the hassle of managing the equipment.
 
 Despite these options, mining presents significant challenges. The well-known adage in the world of cryptocurrencies, "Not your keys, not your Bitcoins," finds a similar resonance in the world of mining: "Not your hashrate, not your reward." Stories of disappointments and disconnected machines are common, with many players promising exceptional results but failing to deliver. Issues with electricity supply and machine breakdowns can leave investors powerless, with expensive equipment they do not control. In this context, caution and a deep understanding of the mining sector are crucial before venturing into it. While opportunities for gains exist, the risks are significant, and an informed and thoughtful approach is essential for navigating this complex and often unpredictable field. It is therefore vital to conduct thorough research and carefully weigh the pros and cons before engaging in Bitcoin mining.
 
@@ -315,7 +315,7 @@ For an investment of 1 kW of electrical energy, an electric radiator produces 1 
 
 A computer, or more broadly, an electronic board, does not consume energy to perform calculations; it simply needs energy to flow through its components to function. Energy consumption is due to the electrical resistance of the components, which produces losses and generates heat, known as the Joule effect.
 
-Some companies have come up with the idea of combining computing power needs with heating needs through radiator/server. The idea is to distribute a company's servers into small units that could be placed in homes or offices. However, this idea faces several problems. The need for servers is not related to the need for heating, and companies cannot use the computing capabilities of their servers flexibly. There are also limits to the bandwidth that individuals can have. All these constraints prevent the company from making these expensive installations profitable or providing a stable online server offering without data centers that can take over when heating is not needed.
+Some companies have come up with the idea of combining computing power needs with heating needs through a radiator/server. The idea is to distribute a company's servers into small units that could be placed in homes or offices. However, this idea faces several problems. The need for servers is not related to the need for heating, and companies cannot use the computing capabilities of their servers flexibly. There are also limits to the bandwidth that individuals can have. All these constraints prevent the company from making these expensive installations profitable or providing a stable online server offering without data centers that can take over when heating is not needed.
 
 > The heat generated by your computer is not wasted if you need to heat your home. If you use electric heating where you live, then the heat from your computer is not wasted. It costs the same to generate this heat with your computer. If you have a cheaper heating system than electric heating, then the waste is only in the cost difference. If it's summer and you use air conditioning, then it's double the waste. Bitcoin mining should occur where it is more cost-effective. Perhaps it will be a location with a cold climate, where heating is provided by electricity, and where mining will become cost-free.  
 >  
@@ -434,7 +434,7 @@ Instead of using an Ethernet cable, you can connect your Antminer via WIFI by ad
 
 3. Optional: add a smart plug
 
-If you want to turn your Antminer on or off from your smartphone and monitor its power consumption, you can add a smart plug. We tested the ANTELA plug in the 16A version, compatible with the SmartLife app. This smart plug allows you to view daily and monthly power consumption and connects directly to your internet router via WiFi.
+If you want to turn your Antminer on or off from your smartphone and monitor its power consumption, consider adding a smart plug. We tested the ANTELA plug in the 16A version, compatible with the SmartLife app. This smart plug allows you to view daily and monthly power consumption and connects directly to your internet router via WiFi.
 
 ![image](assets/en/31.webp)
 
@@ -479,7 +479,7 @@ Choose Wizard.
 
 Select the WIFI network you want to connect your miner to, then click Next.
 
-NOTE: The Vonet bridge only works on the 2.4GHz frequency. Nowadays, routers usually offer two Wi-Fi networks, one on 2.4 GHz and one on 5 GHz.
+NOTE: The Vonet bridge only works on the 2.4GHz frequency. Nowadays, routers typically offer two Wi-Fi networks, one operating on 2.4 GHz and the other on 5 GHz.
 
 ![image](assets/en/35.webp)
 
@@ -591,7 +591,7 @@ On this first page, you can observe the real-time performance of your machine.
 
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
-> WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software that can reduce the performance of your machine. This measure is crucial because in order to reduce noise, we will install less powerful fans that can dissipate less heat.  
+> WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software that can reduce the performance of your machine. This measure is crucial because, in order to reduce noise, we will install less powerful fans that can dissipate less heat.  
 
 ![image](assets/en/46.webp)
 
@@ -639,7 +639,7 @@ Once the red and black wires are exposed, cut the sheaths carefully to avoid dam
 
 ![image](assets/en/58.webp)
 
-Then, connect the cables with a sugar, the black wire with the black and the red wire with the red. You can also add electrical tape.
+Then, connect the cables with a sugar, the black wire with the black, and the red wire with the red. You can also add electrical tape.
 
 ![image](assets/en/59.webp)
 ![image](assets/en/60.webp)
@@ -685,7 +685,7 @@ WARNING: It is essential to have previously installed Braiins OS+ on your miner,
 ![image](assets/en/67.webp)
 
 3. It's time to install the 3D parts!
-Attach them on both sides of the miner using the screws you removed from the fans. Screw them in until the screw head is flush with the 3D part and it is securely in place. Be careful not to tighten too much, as you could deform the part and one of the screws might come into contact with a capacitor.
+Attach them on both sides of the miner using the screws you removed from the fans. Screw them in until the screw head is flush with the 3D part, and it is securely in place. Be careful not to tighten too much, as this could deform the part and cause one of the screws to come into contact with a capacitor.
 
 ![image](assets/en/68.webp)
 
@@ -728,7 +728,7 @@ However, since everything in Bitcoin is based on probability, it sometimes happe
 
 If you like to gamble, you can try it, but our guide will not focus on that direction. Instead, we will concentrate on the mining pool that best suits our needs for creating a heating system.
 
-Considerations to have when choosing a mining pool are the operation of the pool's rewards, which can vary, as well as the minimum amount before being able to withdraw rewards to an address. For example, Braiins, which offers the software we are discussing here, also offers a pool. This pool features a reward system called "Score" that incentivizes miners to mine for extended periods. Participation includes an uptime factor expressed as a "scoring hashrate". In our case, where we want a heating system that can be turned on for only a few minutes, this is not the ideal reward system. We prefer a reward system that gives us an equal reward for each participation. Additionally, the minimum withdrawal amount for Braiins Pool is 100,000 sats, and it is on-chain. So we lose some sats in transaction fees, and a portion of our reward can be locked if we don't mine enough during the winter.
+Considerations to have when choosing a mining pool are the operation of the pool's rewards, which can vary, as well as the minimum amount before being able to withdraw rewards to an address. For example, Braiins, which offers the software we are discussing here, also offers a pool. This pool features a reward system called "Score" that incentivizes miners to mine for extended periods of time. Participation includes an uptime factor expressed as a "scoring hashrate". In our case, where we want a heating system that can be turned on for only a few minutes, this is not the ideal reward system. We prefer a reward system that gives us an equal reward for each participation. Additionally, the minimum withdrawal amount for Braiins Pool is 100,000 sats, and it is on-chain. So we lose some sats in transaction fees, and a portion of our reward can be locked if we don't mine enough during the winter.
 
 The reward model that interests us is PPS, which stands for "pay-per-share". This means that the miner will receive a reward for each valid share. There is also a variant of this system, FPPS (Full Pay Per Share), which not only divides the coinbase reward, but also the transaction fees included in the block. The mining pools we recommend for connecting your mining/heating are Linecoin Pool (FPPS) and Nicehash (PPS).
 
@@ -766,9 +766,9 @@ Before 2018, miners had two ways to gain an advantage in their activity: finding
 
 Today, there is a new advancement in the software and firmware mining sector called autotuning, which offers an even greater advantage than AsicBoost. ASICs are composed of many small computer chips that perform hashing. These chips are made of silicon, the same element widely used in semiconductors and other microelectronic components. The key understanding here is that not all silicon chips are identical; each can vary slightly in its electrical properties. Hardware manufacturers are aware of this and publish the performance specifications of their mining machines based on the lower limit of their tolerances. In other words, manufacturers know the frequency that works best for average chips, and they use this frequency uniformly for all chips in the machine.
 
-This puts an upper limit on the hash rate a machine can have. Autotuning is a process in which algorithms evaluate the optimal frequencies for chip-by-chip hashing, instead of treating the entire machine as a single unit. This means that a higher-quality chip, which can perform more hashes per second, will have a higher frequency, while a lower-quality chip, which can perform relatively fewer hashes, will have a lower frequency. Chip-level autotuning is essentially a method for optimizing the performance of an ASIC through the software and firmware running on it.
+This puts an upper limit on the hash rate a machine can have. Autotuning is a process in which algorithms evaluate the optimal frequencies for chip-by-chip hashing, instead of treating the entire machine as a single unit. This means that a higher-quality chip, which can perform more hashes per second, will have a higher frequency, while a lower-quality chip, which can perform relatively fewer hashes, will have a lower frequency. Chip-level autotuning is a method for optimizing the performance of an ASIC by adjusting the software and firmware running on it.
 
-The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting. Therefore, it is a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is a complex implementation. Manufacturers already spend a lot of resources developing their own firmware. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
+The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting. Therefore, it is a bad idea for manufacturers to sell a product that does not offer consistent and predictable performance across different machines. Additionally, chip-level autotuning requires considerable development resources, as it is a complex implementation. Manufacturers already spend a lot of resources developing their own firmware. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
 
 # Final Section
 
