@@ -1733,7 +1733,7 @@ Today's users, therefore, prefer coinjoin, as it allows them to retain total con
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
 
-The privacy provided by a coinjoin is earned by the size of the group in which our piece is hidden. This means finding as many participants as possible. It's perfectly possible to create a coinjoin manually, but this is a complex process that won't yield any significant anonsets.
+The privacy provided by a coinjoin is earned by the size of the group in which our UTXO is hidden. This means finding as many participants as possible. It's perfectly possible to create a coinjoin manually, but this is a complex process that won't yield any significant anonsets.
 
 This is why coinjoin coordinators have developed on Bitcoin. Their role is to connect various users with each other and transmit the necessary information to facilitate the collaborative transaction.
 
@@ -1965,7 +1965,7 @@ Whirlpool's model is based on small coinjoin transactions. Unlike Wabisabi and J
 
 In this model, users pay fees only when they first join a pool, enabling them to participate in a multitude of remixes at no extra cost. New entrants pay the mining fees for remixers.
 
-With each additional coinjoin in which a piece participates, as well as its peers encountered in the past, the anonsets will grow exponentially. The aim is to take advantage of these free remixes, which, each time they occur, contribute to reinforcing the density of the anonsets associated with each piece mixed.
+With each additional coinjoin in which a UTXO participates, as well as its peers encountered in the past, the anonsets will grow exponentially. The aim is to take advantage of these free remixes, which, each time they occur, contribute to reinforcing the density of the anonsets associated with each UTXO mixed.
 
 ![BTC204](assets/fr/141.webp)
 
