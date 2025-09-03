@@ -321,7 +321,7 @@ Some companies have developed the concept of combining computing power needs wit
 >  
 > Satoshi Nakamoto - August 8, 2010  
 
-Bitcoin and its proof-of-work system stand out because they automatically adjust the mining difficulty based on the amount of computation performed by the entire network. This amount is referred to as the hashrate and is expressed in hashes per second. Today, it is estimated to be 380 exahashes per second, which is equivalent to 380 billion billion hashes per second. This hashrate represents work and, therefore, an amount of energy expended. The higher the hashrate, the higher the difficulty, and vice versa. Thus, a Bitcoin miner can be activated or deactivated at any time without affecting the network, unlike radiators/servers that need to remain stable to provide their service. The miner is rewarded for their participation, relative to others, no matter how small it may be.
+Bitcoin and its proof-of-work system stand out because they automatically adjust the mining difficulty based on the amount of computation performed by the entire network. This amount is referred to as the "hashrate" and is expressed in hashes per second. Today, it is estimated to be 380 exahashes per second, which is equivalent to 380 billion billion hashes per second. This hashrate represents work and, therefore, an amount of energy expended. The higher the hashrate, the higher the difficulty, and vice versa. Thus, a Bitcoin miner can be activated or deactivated at any time without affecting the network, unlike radiators/servers that need to remain stable to provide their service. The miner is rewarded for their participation, relative to others, no matter how small it may be.
 
 In summary, both an electric radiator and a Bitcoin miner produce 1 kW of heat for every 1 kW of electricity consumed. However, the miner also receives bitcoins as a reward. Regardless of the price of electricity, the price of bitcoin, or the competition in Bitcoin mining activity on the network, it is economically more advantageous to heat with a miner rather than an electric radiator.
 
@@ -591,7 +591,7 @@ On this first page, you can observe the real-time performance of your machine.
 
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
-> WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software that can reduce the performance of your machine. This measure is crucial because, in order to reduce noise, we will install less powerful fans that can dissipate less heat.  
+**WARNING:** It is essential to have previously installed Braiins OS+ on your miner, or any other software that can reduce the performance of your machine. This measure is crucial because, in order to reduce noise, we will install less powerful fans that can dissipate less heat.  
 
 ![image](assets/en/46.webp)
 
@@ -600,7 +600,7 @@ On this first page, you can observe the real-time performance of your machine.
 - 1 Noctua NF-A6x25 PWM fan
 - 2.5mm2 electrician's sugar
 
-> WARNING: First of all, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.  
+**WARNING:** First of all, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.  
 
 ![image](assets/en/47.webp)
 
@@ -663,7 +663,7 @@ Finally, put the case cover back in place and screw the 6 screws on the sides to
 
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
-WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software that may reduce the performance of your machine. This measure is crucial because, to reduce noise, we will install less powerful fans, which will dissipate less heat.  
+**WARNING:** It is essential to have previously installed Braiins OS+ on your miner, or any other software that may reduce the performance of your machine. This measure is crucial because, to reduce noise, we will install less powerful fans, which will dissipate less heat.  
 
 ![image](assets/en/46.webp)
 
@@ -673,7 +673,7 @@ WARNING: It is essential to have previously installed Braiins OS+ on your miner,
 - 2 Noctua NF-A14 iPPC-2000 PWM fans
 - 2 140mm fan grilles
 
-> WARNING: Before starting, first disconnect your miner to avoid any risk of electrocution.  
+**WARNING:** Before starting, first disconnect your miner to avoid any risk of electrocution.  
 
 1. First, disconnect the fans and unscrew them.
 
