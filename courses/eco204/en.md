@@ -141,7 +141,7 @@ In the 18th century, French economic history was marked by two significant event
 
 Assignats from 1793
 
-These banknotes serve as a living testament to the first major period of hyperinflation in history. Initially designed as a response to successive financial crises, assignats quickly became a symbol of monetary instability. The government, relying excessively on this paper currency to finance its expenses, caused an unprecedented economic crisis and created a major period of hyperinflation in France after the revolution.
+These banknotes serve as a living testament to the first major period of hyperinflation in history. Initially designed as a response to successive financial crises, assignats quickly became a symbol of monetary instability. The government, relying excessively on this paper currency to finance its expenses, caused an unprecedented economic crisis and led to a major period of hyperinflation in France following the revolution.
 
 #### 6. Executive Order 6102 and the Devaluation of the Dollar
 
@@ -184,7 +184,7 @@ The United States made a historic turning point by becoming the first to devalue
 
 Previously, during the Renaissance, the Italian florin issued by Florence in the 13th century was the international reserve currency, and no devaluation had been recorded during its period of use, reflecting the importance of monetary stability for international trade.
 
-In the same spirit, Spain and the Netherlands, as holders of the world reserve currency due to their flourishing international trade, maintained the integrity of their currencies to preserve confidence and the status quo in international exchanges. The Netherlands even witnessed the creation of the first central bank, a crucial milestone in global monetary evolution.
+In the same spirit, Spain and the Netherlands, as holders of the world reserve currency due to their flourishing international trade, maintained the integrity of their currencies to preserve confidence and the status quo in international exchanges. The Netherlands even witnessed the creation of the first central bank, a significant milestone in the global evolution of monetary systems.
 
 ![image](assets/fr/013.webp)
 
@@ -248,20 +248,20 @@ Here is a breakdown of the topic into several key points:
 
   Inflation and deflation are like communicating vessels in an economy. An increase in production can lead to deflation, but if the money supply is increased simultaneously, the deflationary effect is canceled out, resulting in inflation.
 
-This discussion highlights the importance of understanding the underlying mechanisms of inflation and deflation, as well as the profound impact that altering the money supply can have on the economy. We will likely revisit these concepts later to gain a deeper understanding of their interconnectedness and the impact they have on the global economy.
+This discussion underscores the significance of comprehending the underlying mechanisms of inflation and deflation, as well as the profound influence that altering the money supply can have on the economy. We will likely revisit these concepts later to gain a deeper understanding of their interconnectedness and the impact they have on the global economy.
 
 ### Why does money printing not always cause inflation?
 
 #### Inflation ≠ CPI
 
-Inflation, although often associated with an increase in the money supply, does not always have a direct correlation with money printing, as illustrated by the period following the 2008 financial crisis. Despite significant money printing to save the banks, the following decade did not experience high inflation, averaging between 0 and 2% per year. This situation raises the question: why did massive money printing not result in proportional inflation? The answer lies in several nuances related to measuring inflation and the Consumer Price Index (CPI).
+Inflation, although often associated with an increase in the money supply, does not always have a direct correlation with money printing, as illustrated by the period following the 2008 financial crisis. Despite significant money printing to save the banks, the following decade did not experience high inflation, averaging between 0 and 2% per year. This situation raises the question: Why did massive money printing not result in proportional inflation? The answer lies in several nuances related to measuring inflation and the Consumer Price Index (CPI).
 The first explanation lies in the way inflation is measured. The Consumer Price Index (CPI), which serves as the primary indicator of inflation, has certain limitations. For example, it does not comprehensively account for the evolution of real estate prices. Although the CPI includes a component related to rents, the substantial appreciation of house prices is not fully reflected in the index. As a result, significant increases in housing costs can occur without being fully captured by the CPI, potentially underestimating actual inflation.
 
 Additionally, the calculation of the CPI employs certain methodologies that can offset or mask actual price increases. For example, qualitative improvements in products can be used to adjust the index. If the price of a product increases, but its quality or features also improve, the CPI may consider that the real value for the consumer has not changed, and therefore, not reflect inflation. An illustrative case is one where, despite an increase in beef and computer prices due to monetary injection, the improvement in computer performance is used to offset this increase. If a computer costs twice as much but is four times more powerful, the CPI may interpret this as a decrease in prices, thus masking the increase in beef prices.
 
 ![image](assets/fr/019.webp)
 
-These nuances in measuring inflation by the CPI highlight the complexity of the relationship between monetary printing and inflation. They also suggest that actual inflation may be higher than reported if all price increases, especially in key sectors such as real estate, were more comprehensively taken into account. This analysis highlights the importance of understanding the underlying mechanisms of inflation and the limitations of conventional indices used to measure it, thereby facilitating a deeper comprehension of the economic implications of monetary policies.
+These nuances in measuring inflation by the CPI highlight the complexity of the relationship between monetary printing and inflation. They also suggest that actual inflation may be higher than reported if all price increases, especially in key sectors such as real estate, were more comprehensively taken into account. This analysis underscores the significance of understanding the underlying mechanisms of inflation and the limitations of conventional indices used to measure it, thereby facilitating a deeper understanding of the economic implications of monetary policies.
 
 #### Arguments of MMT
 
@@ -358,7 +358,7 @@ When exploring types of inflation, it is common to come across terms like "Deman
 
 - Cost Push:
   On the other hand, cost-push inflation is attributed to the increase in production costs, such as those of natural resources or labor. Again, without an increase in the money supply, cost increases in one sector may simply reduce spending in others, without causing widespread inflation.
-  These traditional explanations often associate price increases with inflation, which can lead to confusion. In reality, for widespread inflation to occur, an increase in the money supply is necessary. In this context, the concepts of Demand Pull and Cost Push can explain sectoral price variations, but they do not capture the monetary nature of inflation. This highlights the importance of distinguishing between sectoral price increases and widespread inflation, and reaffirms the need for an increase in the money supply to prevent inflation from manifesting throughout the economy. This analysis provides a more nuanced and precise perspective on the actual causes of inflation, demystifying common interpretations that may obscure the underlying monetary dynamics.
+  These traditional explanations often associate price increases with inflation, which can lead to confusion and misunderstanding. In reality, for widespread inflation to occur, an increase in the money supply is necessary. In this context, the concepts of Demand Pull and Cost Push can explain sectoral price variations, but they do not capture the monetary nature of inflation. This highlights the importance of distinguishing between sectoral price increases and widespread inflation, and reaffirms the need for an increase in the money supply to prevent inflation from manifesting throughout the economy. This analysis provides a more nuanced and precise perspective on the actual causes of inflation, demystifying common interpretations that may obscure the underlying monetary dynamics.
 
 ### Classification of Inflation according to Bernholz
 
@@ -423,7 +423,7 @@ It should be noted that this definition, although precise, could possibly exclud
 
 ### The Definition of Hyperinflation by Cagan
 
-Philip Cagan may have set an arbitrary milestone with the 50% monthly inflation threshold when defining hyperinflation. He himself admits that this definition is arbitrary and primarily served his analysis based on seven episodes of hyperinflation. Examination of Cagan's data reveals that the three episodes of hyperinflation with the lowest monthly inflation rates were around 47%, 46%, and 57%. It appears that the 50% threshold was chosen to encompass these cases in his study.
+Philip Cagan may have set an arbitrary milestone with the 50% monthly inflation threshold when defining hyperinflation. He himself admits that this definition is arbitrary and primarily serves his analysis based on seven episodes of hyperinflation. Examination of Cagan's data reveals that the three episodes of hyperinflation with the lowest monthly inflation rates were around 47%, 46%, and 57%. It appears that the 50% threshold was chosen to encompass these cases in his study.
 
 ![image](assets/fr/034.webp)
 
@@ -603,7 +603,7 @@ In response to this situation, the government imposes draconian regulations, inc
 
 #### 1. Oil and metals
 
-During the Weimar period in Germany, the theft of valuable materials was so widespread that roof lead was frequently stolen. In Zimbabwe, desperation drove some to disrupt the power grid in order to extract oil from transformers and use it in their vehicles.
+During the Weimar period in Germany, the theft of valuable materials was so widespread that lead from roofs was frequently stolen. In Zimbabwe, desperation drove some to disrupt the power grid in order to extract oil from transformers and use it in their vehicles.
 
 Weimar: “The metal plaques of national monuments had to be removed for safekeeping. Brass doorbell plates were stolen from the doors of the British Embassy in Berlin.”
 
@@ -758,7 +758,7 @@ On the slide, on the left, are the years of redenomination, the name of the new 
 ![image](assets/fr/052.webp)
 
 On the right side of the slide, a graph of inflation is displayed. The red arrows represent years of hyperinflation, as defined by Kagan's criterion, which is an inflation rate of 50% per month. This criterion can sometimes lead to ambiguous interpretations, as years with high inflation rates may not meet the strict definition of hyperinflation.
-It should be noted that redenomination, a common measure taken by governments during periods of inflation, is a notable occurrence. However, this does not solve the underlying problem of inflation or hyperinflation. It is only a way to rename the currency and remove zeros, without truly addressing the root cause of hyperinflation: the expansion of the money supply. In a later video, we will discuss the real solutions to address and resolve the problem of hyperinflation. In this series, we will highlight the consequences of a simple redenomination without adequate reforms: inflation persists.
+It is worth noting that redenomination, a common measure taken by governments during periods of inflation, is a notable occurrence. However, this does not solve the underlying problem of inflation or hyperinflation. It is only a way to rename the currency and remove zeros, without truly addressing the root cause of hyperinflation: the expansion of the money supply. In a later video, we will discuss the real solutions to address and resolve the problem of hyperinflation. In this series, we will highlight the consequences of a simple redenomination without adequate reforms: inflation persists.
 After Argentina, our study will cover Brazil, Bolivia, Peru, Nicaragua, and Venezuela. We will examine the redenominations that have taken place in these countries.
 
 ### Argentina
@@ -898,7 +898,7 @@ For those curious about the German experience after World War I, I highly recomm
 
 ![image](assets/fr/065.webp)
 
-The key takeaway is that several strategies exist to overcome hyperinflation. One can opt for dollarization or introduce a new currency. These solutions will only work if the population has confidence in them. It is crucial to impose strict constraints. A truly independent central bank is essential. It must not inflate the money supply to cover government deficits. In the case of mild inflation, limiting the growth of the money supply should suffice. However, when faced with hyperinflation, it is crucial to first have an appropriate money supply in relation to the size of the economy. Then, it is imperative to impose strict constraints on the government to stabilize the situation.
+The key takeaway is that several strategies exist to overcome hyperinflation. One can opt for dollarization or introduce a new currency. These solutions will only work if the population has confidence in them. It is crucial to impose strict constraints. A truly independent central bank is essential. It must not inflate the money supply to cover government deficits. In the case of mild inflation, limiting the growth of the money supply should suffice. However, when faced with hyperinflation, it is crucial to first have an appropriate money supply in relation to the economy's size. Then, it is imperative to impose strict constraints on the government to stabilize the situation.
 
 ## Presentation of the hyperinflation banknote collection
 
