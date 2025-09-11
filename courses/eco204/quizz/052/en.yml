@@ -1,4 +1,4 @@
-question: What is a key factor in the success or failure of a monetary reform according to Bernold?
+question: What is a key factor in the success or failure of a monetary reform, according to Bernold?
 answer: The trust that the population places in it
 wrong_answers:
   - The amount of money in circulation
@@ -9,4 +9,4 @@ explanation: |
   on its technical relevance but also on the trust that the population places in it.
   Perception and public trust are therefore essential elements in the success or failure
   of a monetary reform.
-reviewed: false
+reviewed: true
