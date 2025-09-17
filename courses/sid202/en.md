@@ -102,7 +102,7 @@ Elements provides a technical solution to problems blockchain users face daily: 
 
 Elements overcomes these problems through its use of Federated Block Signing and Confidential Transactions.
 
-Unlike the Bitcoin network, the process of block signing within Elements is not reliant on Dynamic Membership Multiparty Signatures (DMMS) and Proof of Work (PoW). Instead, Elements uses a Strong Federation of signatories, called Block Signers, who can sign and create blocks in a reliable and timely manner. This removes the transaction latency of the PoW mining process, which is subject to large block time variance due to its random Poisson distribution. The Federated Block Signing process enables reliable block creation without relying on third-party trust.
+Unlike the Bitcoin network, the process of block signing within Elements is not reliant on Dynamic Membership Multiparty Signatures (DMMS) and Proof of Work (PoW). Instead, Elements uses a Strong Federation of signatories, called Block Signers, who can sign and create blocks in a reliable and timely manner. This removes the transaction latency of the PoW mining process, which is subject to large block time variance due to its random Poisson distribution. The Federated Block Signing process enables the creation of reliable blocks without relying on third-party trust.
 
 Elements can run as a sidechain to another blockchain, such as Bitcoin, or as a standalone blockchain with no dependencies on other networks.
 
@@ -154,7 +154,7 @@ The Federated 2-way Peg feature enables an asset to be interoperable with other 
 
 At a high level, transfers into the sidechain occur when someone sends mainchain assets to an address controlled by a multi-signature Watchmen wallet. This effectively freezes the assets on the mainchain. Watchmen then validate the transaction and release the same amount of the associated asset within the sidechain. The released assets are sent to a sidechain wallet that can prove a claim to the original mainchain assets. This process effectively moves assets from the parent chain to the sidechain.
 
-To transfer assets back to the mainchain, a user initiates a special peg-out transaction on the sidechain. This transaction is verified by Watchmen, who then sign a transaction spending from the multi-signature wallet they control on the main chain. A threshold number of participants in the federation must sign before the mainchain transaction before it becomes valid. When the Watchmen send an asset back to the main chain, they also destroy the corresponding amount on the side chain, effectively transferring the assets between blockchains.
+To transfer assets back to the main chain, a user initiates a special peg-out transaction on the side chain. This transaction is verified by Watchmen, who then sign a transaction spending from the multi-signature wallet they control on the main chain. A threshold number of participants in the federation must sign before the mainchain transaction before it becomes valid. When the Watchmen send an asset back to the main chain, they also destroy the corresponding amount on the side chain, effectively transferring the assets between blockchains.
 
 ## Setting up and Running Elements
 
@@ -164,7 +164,7 @@ To transfer assets back to the mainchain, a user initiates a special peg-out tra
 
 As Elements is based on the Bitcoin codebase, the components that make up a functioning network are very similar.
 
-The Elements node software itself is called `elementsd` and runs as a daemon on a user's machine. A daemon (or service in Windows) is a program that runs in the background without requiring direct control from a logged-on user.
+The Elements node software itself is called `elementsd` and runs as a daemon on a user's machine. A daemon (or service in Windows) is a program that runs in the background without requiring direct user intervention.
 
 Note: Throughout this document, we will always refer to elements as the daemon version; however, everything could be done with elements-qt, provided that the server option is enabled.
 
@@ -172,11 +172,11 @@ The Elements daemon connects to other nodes on the network so it can exchange tr
 
 The Elements software also consists of a client program called `elements-cli` which allows you to send Remote Procedure Call (RPC) commands to elementsd from the command line. This can be used to query a wallet balance, view transaction or block data, or broadcast a transaction, for example. This setup should be familiar to anyone who has used the Bitcoin equivalents, bitcoind and bitcoin-cli.
 
-As an Elements node can be configured by passing parameters in at startup or via a configuration file, it is possible to have more than one instance running on the same machine. This is useful for testing and development purposes, as you can set up your own local network on a single machine. Each Elements node has its own copy of the blockchain data, manages its own pool of unconfirmed valid transactions, and listens to RPC requests on different ports.
+As an Elements node can be configured by passing parameters in at startup or via a configuration file, it is possible to have more than one instance running on the same machine. This is useful for testing and development purposes, as it allows you to set up your own local network on a single machine. Each Elements node has its own copy of the blockchain data, manages its own pool of unconfirmed valid transactions, and listens to RPC requests on different ports.
 
 ### The Elements Code Repository and Community
 
-Elements is an open-source project, and its source code can be found in the Elements GitHub repository at https://github.com/ElementsProject/elements. The repository contains the source for the elementsd and elements-cli programs along with supporting installation and build tools, a suite of tests and some instructional documentation.
+Elements is an open-source project, and its source code can be found in the Elements GitHub repository at https://github.com/ElementsProject/elements. The repository contains the source code for the elementsd and elements-cli programs along with supporting installation and build tools, a suite of tests, and some instructional documentation.
 
 To complement the code repository, there is also the https://elementsproject.org website, a community-focused resource containing explanations of what Elements is, how it works, and a comprehensive tutorial section. The tutorial focuses on learning about Elements by following command line examples and shows you how to build simple desktop and web applications on top of it. The site also lists popular Elements community discussion forums and is hosted on GitHub, enabling community contributions to the site's content.
 
@@ -186,7 +186,7 @@ In order to run Elements on your machine, you will first need to clone (download
 
 <chapterId>df1ec0aa-84ea-4149-af7a-b4523d67e1d9</chapterId>
 
-Configuration settings can be passed to an Elements node on startup in order to change the way it runs, validates data, connects to other nodes and initializes its blockchain data.
+Configuration settings can be passed to an Elements node on startup in order to change the way it runs, validates data, connects to other nodes, and initializes its blockchain data.
 
 Settings are either loaded from the designated `elements.conf` file or passed in as parameters via the command line.
 
@@ -285,7 +285,7 @@ Note the transaction ID. Confirm the transaction.
 e2-cli -generate 101
 ```
 
-Looking at the transaction where e2 sent some funds to itself from the perspective of e2 itself.
+Looking at the transaction, where e2 sent some funds to itself from the perspective of e2 itself.
 
 ```
 e2-cli gettransaction <txid>
@@ -303,7 +303,7 @@ That returns raw transaction details. If you look within the vout section, you c
 
 ### Blinding Keys
 
-What the first two vout sections show are "blinded ranges” of the value amounts and the commitment data that acts as proof of the actual amount and type of asset transacted.
+What the first two VOUT sections show are "blinded ranges” of the value amounts and the commitment data, which acts as proof of the actual amount and type of asset transacted.
 
 Even if we were to import e2's private key into e1's wallet, it would still not be able to see the amounts and type of asset transacted because it still has no knowledge of the blinding key used by e2. We'll prove this by importing the private key used by e2's wallet into e1's. First, we need to export the key from e2
 
@@ -391,7 +391,7 @@ e1-cli issueasset 100 1 false
 
 The amount of the new asset to issue is 100. The amount of tokens to create (tokens are used to reissue amounts of an asset), of which we chose 1. The final parameter tells Elements to either create the asset issuance as blinded or unblinded. We'll use 'unblinded' as we want to view the issuance amounts from e2 in a minute, so we'll enter 'false'.
 
-Running the command returns data about the issuance. These include the transaction ID, which you can take a copy of for later use, the unique hex value of the asset, and the unique hex value of the asset's token.
+Running the command returns data about the issuance. These include the transaction ID, which you can copy for later use, the unique hex value of the asset, and the unique hex value of the asset's token.
 
 Generate a block to confirm the issuance transaction.
 
@@ -449,7 +449,7 @@ You can see that our newly issued asset is now included in the list. The e2 node
 e1-cli stop
 ```
 
-Then restart it with an additional parameter that maps an asset's hex to the provided label. This enables the node to display data about the asset to us in a more human-readable format. You can add this to the end of elements.If you prefer, you can simply omit the argument to the daemon each time you start it. For example:
+Then restart it with an additional parameter that maps an asset's hex to the provided label. This enables the node to display data about the asset to us in a more human-readable format. You can add this to the end of elements. If you prefer, you can simply omit the argument to the daemon each time you start it. For example:
 
 ```
 assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new asset (MNA)
@@ -555,7 +555,7 @@ e1-cli issueasset 100 1 false
 
 Note the ID of the asset and also that of the (reissuance) token.
 
-As we will later reissue more assets from e2, we will need to take note of the transaction ID that the asset was issued under and use it to import the address to which the asset was sent.
+As we will later reissue more assets from e2, we will need to note the transaction ID under which the asset was issued and use it to import the address to which the asset was sent.
 
 Confirm the transaction.
 
@@ -693,7 +693,7 @@ Previously, and for ease of example, we have been creating blocks using the `gen
 
 We'll be setting up our nodes to require 2-of-2 multisig block creation. This will be set up using the signblockscript parameter, which can be added to the config file or passed into the node on startup. To initialize a chain with this parameter, we first need to create a script that comprises the chain.
 
-We'll do this by using some existing nodes, saving the data they output, and then wiping the chain so we can restart it using our signblockscript parameter. This is necessary because the script forms part of the network's consensus rules and must be set on-chain during initialization. It cannot be added to an existing chain at a later date.
+We'll do this by using some existing nodes, saving the data they output, and then wiping the chain so we can restart it using our signblockscript parameter. This is necessary because the script forms part of the network's consensus rules and must be set on-chain during the initialization process. It cannot be added to an existing chain at a later date.
 
 We'll need access to two Elements nodes, which we will refer to as e1 and e2. The nodes have had their blockchains reset, and the default asset has been split between them.
 
@@ -759,7 +759,7 @@ The use of the generate command should now error as it fails to meet the require
 e1-cli -generate 1
 ```
 
-To propose a new block, either node can call the getnewblockhex command. This returns the hexadecimal representation of a new block that will need to be signed before it is accepted by any nodes on our network.
+To propose a new block, either node can call the getnewblockhex command. This returns the hexadecimal representation of a new block that must be signed before it is accepted by any nodes on our network.
 
 ```
 e1-cli getnewblockhex
@@ -779,7 +779,7 @@ If we try submitting the block hex without signing it first.
 e1-cli submitblock <block-hex>
 ```
 
-We get a message telling us that the block proof is invalid. This is because it has not yet been signed by 2 of the required 2 parties.
+We receive a message indicating that the block proof is invalid. This is because it has not yet been signed by 2 of the required 2 parties.
 
 So let's get e1 to sign the proposed block.
 
@@ -850,13 +850,13 @@ Elements is an open-source, general-purpose blockchain platform that can also be
 
 While a sidechain is aware of the mainchain and its transaction history, the mainchain is unaware of the sidechain, and no awareness is required for its operation. This enables sidechains to innovate without restriction or the delays associated with mainchain protocol improvement proposals. Rather than trying to alter it directly, extending the main protocol allows the mainchain itself to remain secure and specialized, underpinning the smooth operation of the sidechain.
 
-By extending the functionality of Bitcoin and leveraging its underlying security, an Elements-based sidechain can provide new functionality that was previously unavailable to users of the mainchain. An example of an Elements-based sidechain in production use is the Liquid Network.
+By extending the functionality of Bitcoin and leveraging its underlying security, an Elements-based sidechain can offer new capabilities that were previously unavailable to users of the mainchain. An example of an Elements-based sidechain in production use is the Liquid Network.
 
 To initialize an Elements blockchain as a sidechain, we need to use the federated peg script parameter. This parameter can be set in a node's config file or passed in on startup.
 
 The federated peg script defines which members of the strong federation are authorized to perform peg-in and peg-out functions. These functionaries are referred to as `Watchmen` because they monitor the mainchain and sidechain for valid peg-in and peg-out transactions and take action on them if they are valid. To `peg-out` means to move pegged assets out of the sidechain and into the mainchain, and to `peg-in` means to move pegged assets into the sidechain from the mainchain. When we say `move into the sidechain,` what we actually mean is that the funds are locked in a multi-signature address on the mainchain, and a corresponding amount of the asset is created on the Elements sidechain. When we say `move out of the sidechain,` what we mean is that assets are destroyed on the Elements sidechain, and the corresponding amount is released from the locked funds held on the mainchain. Permission to perform the peg-in and peg-out functions requires that functionaries prove ownership of the public keys used in the federated peg script. This is accomplished using the corresponding private keys.
 
-To create a federated peg script, we first need to have each of our nodes generate a public key. We also need to store the associated private keys for later use, as we'll need to wipe any existing chain data and initialize a new chain using the federated peg script. This is because the federated peg script forms part of the consensus rules of a sidechain, and it cannot be applied to an existing, non-pegged blockchain at a later date.
+To create a federated peg script, we first need each of our nodes to generate a public key. We also need to store the associated private keys for later use, as we'll need to wipe any existing chain data and initialize a new chain using the federated peg script. This is because the federated peg script forms part of the consensus rules of a sidechain, and it cannot be applied to an existing, non-pegged blockchain at a later date.
 
 So let's generate an address for each of our nodes, store the relevant data for later use, and create the federated peg script, which we'll use to initialize our sidechain later.
 
@@ -904,7 +904,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-We now need to mature some blocks on both chains. Maturity of blocks is a requirement of the peg process, as it protects against block reorganizations on the mainchain, which can lead to inflation of the pegged asset supply within the sidechain.
+We now need to mature some blocks on both chains. Maturity of blocks is a requirement of the peg process, as it protects against block reorganizations on the main chain, which can lead to inflation of the pegged asset supply within the side chain.
 
 To keep this section focused on the federated peg, we will generate blocks without using the block signing model examined in the last section and return to using the 'generate' command to create new blocks.
 
@@ -914,7 +914,7 @@ b-cli generate 101
 e1-cli generate 1
 ```
 
-We don't necessarily need to generate blocks for elements right now. But let's generate one anyway. It's good practice to avoid potential inconsistencies.
+We don't necessarily need to generate blocks for elements at this time. But let's generate one anyway. It's good practice to avoid potential inconsistencies.
 
 Now our chain is ready to peg in. To peg-in, we need to generate a special kind of address using the getpeginaddress command. Note that the duration between generating a peg-in address with getpeginaddress and claiming it with claimpegin should be kept as small as possible. Peg-in addresses are not long-term durable and should not be reused.
 
@@ -1042,7 +1042,7 @@ Note: The characters outside the public keys are delimiters that indicate the pu
 
 Before a peg-in can be accepted by an Elements sidechain, it must have sufficient confirmations on the mainchain. This is necessary to avoid inflation in the supply of the pegged asset on the Elements sidechain, which could be caused by a reorganization of the mainchain.
 
-Short reorganizations of the Bitcoin blockchain's tip are expected as part of its normal operation, due to the Proof of Work (PoW) consensus mechanism. As such, Elements only accepts a peg-in to be valid when it has sufficient depth within the Bitcoin blockchain. This serves to prevent Elements from accepting the same peg-in more than once.
+Short reorganizations of the Bitcoin blockchain's tip are expected as part of its normal operation, due to the Proof-of-Work (PoW) consensus mechanism. As such, Elements only accepts a peg-in to be valid when it has sufficient depth within the Bitcoin blockchain. This serves to prevent Elements from accepting the same peg-in more than once.
 
 ### Peg-Out
 
@@ -1198,7 +1198,7 @@ On our standalone blockchain Elements network, all other transactional operation
 
 ### Node Startup and Chain Initialization Parameters
 
-To instruct an Elements node to operate as a standalone blockchain, several parameters must be used in conjunction. We'll take a look at each now and find out what they do.
+To instruct an Elements node to operate as a standalone blockchain, several parameters must be used in conjunction with each other. We'll take a look at each now and find out what they do.
 
 #### `validatepegin=0`
 As a standalone blockchain does not need to validate any peg-in or peg-out transactions, we need to disable those checks. With this setting, you do not need to run the Bitcoin client software or store a copy of the Bitcoin blockchain, as the Elements network will operate independently.
@@ -1220,7 +1220,7 @@ e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=10000
 
 ### Basic Operations
 
-The `defaultpeggedassetname` parameter applies a label to the default asset. Without this setting, the default asset will be automatically named `bitcoin`. In previous sections, when we sent assets that we had issued ourselves to another node, we had to specify either the asset's hex code or the locally applied asset label to inform Elements of the specific asset we were sending. Since `defaultpeggedassetname` applies across all nodes, we do not need to specify its name when sending it, even though its name is not `bitcoin`. Every function that would have sent `bitcoin` before by default will now send whatever you choose to label the default asset as.
+The `defaultpeggedassetname` parameter applies a label to the default asset. Without this setting, the default asset will be automatically named `bitcoin`. In previous sections, when we sent assets that we had issued ourselves to another node, we had to specify either the asset's hex code or the locally applied asset label to inform Elements of the specific asset being sent. Since `defaultpeggedassetname` applies across all nodes, we do not need to specify its name when sending it, even though its name is not `bitcoin`. Every function that would have sent `bitcoin` before by default will now send whatever you choose to label the default asset as.
 
 So sending 10 of the new default assets to an address is as simple as:
 
