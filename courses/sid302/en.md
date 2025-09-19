@@ -1,7 +1,7 @@
 ---
-name: Liquid Bootcamp Essentials
-goal: Gain a comprehensive understanding of the Liquid Network and the Elements project, and learn how to implement advanced solutions in confidential transactions, tokenization, and decentralized network architecture.
-objectives:
+Name: Liquid Bootcamp Essentials
+Goal: Gain a comprehensive understanding of the Liquid Network and the Elements project, and learn how to implement advanced solutions in confidential transactions, tokenization, and decentralized network architecture.
+Objectives:
   - Understand the fundamentals of Liquid architecture and its relationship with Bitcoin.
   - Learn to configure and operate Liquid nodes using the Elements software.
   - Explore the use of confidential transactions and asset issuance on the Liquid Network.
