@@ -25,7 +25,7 @@ With presentations by industry experts, the course covers topics such as Liquid 
 
 Welcome to the Liquid Bootcamp, a comprehensive training designed to equip you with the knowledge and skills to effectively leverage the Liquid Network and the Elements project. This course offers a comprehensive exploration of Liquid's distinctive features, including Confidential Transactions, asset issuance, and its federated network architecture, while also introducing the foundational concepts of Elements, the software that powers Liquid.
 
-Throughout the bootcamp, you will explore practical applications of the Liquid Network, from setting up and operating nodes to understanding its use in Bitcoin's capital markets and tokenization. With presentations from industry experts, you will also gain insights into advanced topics like HTLCs, the Breeze SDK, and the Blockstream AMP project.
+Throughout the boot camp, you will explore the practical applications of the Liquid Network, from setting up and operating nodes to understanding its use in Bitcoin's capital markets and tokenization. With presentations from industry experts, you will also gain insights into advanced topics like HTLCs, the Breeze SDK, and the Blockstream AMP project.
 
 This bootcamp was originally conducted as an in-person event, following a structured schedule (as shown in the image) designed for live sessions. However, for this course adaptation, the content has been reorganized to better suit an online format and facilitate student comprehension. The new order ensures a logical progression from foundational concepts to more advanced and technical topics, thereby maximizing the learning experience.
 
