@@ -508,7 +508,7 @@ This concept is crucial for understanding the power dynamics at play in the Bitc
 ![Image](assets/fr/062.webp)
 
 
-Let's take an example: let's suppose Bitcoin suffers a Hard Fork. There would then be 2 distinct forms of currency: BTC-1 (the original, unchanged version) and BTC-2 (the new currency with different consensus rules). If all the merchants who accepted BTC-1 continue to do so, but reject BTC-2, then the latter will, in theory, have very limited monetary utility. As a user, I would have no interest in keeping and using BTC-2, knowing that no merchant would want it in exchange for goods or services. Conversely, if 50% of merchants choose to accept BTC-2 exclusively and the remaining 50% take only BTC-1, then the utility of BTC-1 will, in theory, have halved. I use the term "in theory", because utility remains subjective at the individual level, and depends on a multitude of factors (territory, consumption habits, etc.) that are difficult to apprehend on a case-by-case basis.
+Let's take an example: let's suppose Bitcoin suffers a Hard Fork. There would then be 2 distinct forms of currency: BTC-1 (the original, unchanged version) and BTC-2 (the new currency with different consensus rules). If all the merchants who accepted BTC-1 continue to do so, but reject BTC-2, then the latter will, in theory, have very limited monetary utility. As a user, I would have no interest in keeping and using BTC-2, knowing that no merchant would want it in exchange for goods or services. Conversely, if 50% of merchants choose to accept BTC-2 exclusively and the remaining 50% take only BTC-1, then the utility of BTC-1 will, in theory, have halved. I use the term "in theory" because utility remains subjective at the individual level and depends on a multitude of factors (such as territory and consumption habits) that are difficult to comprehend on a case-by-case basis.
 
 
 On Bitcoin, the role of "merchant", understood as any entity with a certain economic weight, of course includes businesses (physical stores, online sales sites, service providers, etc.), but also exchange platforms, since they accept Bitcoin in exchange for other currencies, and miners, since they accept Bitcoin via fees in exchange for the service of including a transaction in a block.
@@ -676,7 +676,7 @@ Personally, I recommend you choose Core, mainly to benefit from security patches
 The _node-in-a-box_ combines Bitcoin Core (or Knots) with a preconfigured operating system, an Interface Web, and an App Store of self-hosting services (Lightning, explorers, Electrum server, Mempool, BTCPay Server, Nextcloud, etc.). In just one click, you can install, update, and interconnect these different modules.
 
 
-It's a much simpler solution for starting up and managing numerous ancillary applications on a day-to-day basis. The downside is that when a problem occurs (Docker image conflict, faulty update, corrupted database...), debugging can become very complex, as you depend on the distribution's own integration. What's more, community or official support is often complicated.
+It's a much simpler solution for starting up and managing numerous ancillary applications on a day-to-day basis. The downside is that when a problem occurs (e.g., Docker image conflict, faulty update, corrupted database), debugging can become very complex, as you depend on the distribution's own integration. What's more, community or official support is often complicated.
 
 
 So, a node-in-a-box is extremely easy to use as long as everything's working properly, but in the event of a bug, you have to be prepared to carry out lengthy searches, wait for help, and get your hands dirty.
@@ -763,7 +763,7 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 [RoninDojo is a privacy-focused node-in-a-box](https://wiki.ronindojo.io/en/home) that automates the deployment of Samurai Dojo and Whirlpool, with a dedicated Interface and plugins specifically designed for the Samurai ecosystem.
 
 
-The principle is simple: if you use Ashigaru Wallet (the Fork successor to Samurai Wallet following the arrest of its developers) or if you want to benefit from advanced privacy tools, RoninDojo is for you.
+The principle is simple: if you use Ashigaru Wallet (the Fork successor to Samurai Wallet, following the arrest of its developers) or if you want to benefit from advanced privacy tools, RoninDojo is for you.
 
 
 ![Image](assets/fr/071.webp)
@@ -876,7 +876,7 @@ It's an excellent low-cost alternative to the mini-PC: today, you can find used 
 ![Image](assets/fr/076.webp)
 
 
-**Highlights:** All-in-one solution, battery acts as a UPS (no blackouts), simplified installation thanks to integrated display and keyboard, integrated Wi-Fi card, and a wide choice of used and new markets (which often means you can negotiate prices).
+**Highlights:** All-in-one solution, the battery acts as a UPS (no blackouts), simplified installation thanks to an integrated display and keyboard, an integrated Wi-Fi card, and a wide choice of used and new markets (which often means you can negotiate prices).
 
 
 **Weaknesses:** slightly higher power consumption than a bare Mini-PC, gradual battery wear in 24/7 operation with loss of capacity, rare but real risk of battery swelling or thermal runaway with age. It's mainly this aspect that makes me consider the mini-PC a better option than the laptop: the gradual degradation of the battery and the associated risks.
@@ -2535,7 +2535,7 @@ To be fully Tor-enabled, you need to force Bitcoin Core to use only this network
 - `natpmp=0`.
 
 
-All your P2P connections go through Tor. Your node receives a `.onion` address for incoming connections, so no ports need to be opened on the router. Your ISP only sees Tor traffic, and your peers are unaware of your public IP.
+All your P2P connections go through Tor. Your node receives a `.onion` address for incoming connections, so no ports need to be opened on the router. Your ISP only sees Tor traffic, and your peers are unaware of your actual public IP address.
 
 
 To avoid DNS resolution in the clear, you can add `dnsseed=0` and `dns=0` to your configuration. You'll then need to manually provide `.onion` peers via `seednode=` or `addnode=`, as discovery of new nodes will be difficult otherwise.
