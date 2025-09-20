@@ -55,7 +55,7 @@ In this first part of the course, we will clarify the basic notions and then pro
 In this second part, I'll start by explaining why it's important to run your own Bitcoin node. We'll then explore the different types of nodes that exist (complete, pruned, SPV...), how they work, and their technical implications.
 
 
-We'll then provide you with an overview of the software available to run a Bitcoin node, including the advantages and disadvantages of each. Finally, we'll conclude with some very practical recommendations for choosing the right hardware for your needs and budget.
+We'll then provide you with an overview of the software available to run a Bitcoin node, including its advantages and disadvantages. Finally, we'll conclude with some very practical recommendations for choosing the right hardware for your needs and budget.
 
 
 This section, therefore, illustrates the path of the sovereign bitcoiner: understand why it's necessary to run a node, choose the type of node, based on this choice, select the software, and, depending on the software chosen, determine the appropriate hardware.
@@ -496,10 +496,10 @@ Adding a few more nodes will therefore have only a marginal impact if the networ
 #### For consensus rules
 
 
-When it comes to your node's influence on the consensus rules, it is, above all, its economic weight that will be decisive. This is a crucial concept: the value of any currency is directly related to its ability to facilitate exchange. Indeed, if an object is not accepted by anyone in exchange for goods or services, it theoretically has no monetary utility. For example, if no merchant accepts pebbles as a means of payment, they have no use as money. Of course, utility remains a subjective notion on an individual scale, but in a given territory, the greater the number of merchants accepting an object as a means of exchange, the more likely it is that this object has a monetary utility for the people living in this territory.
+When it comes to your node's influence on the consensus rules, its economic weight is, above all, what will be decisive. This is a crucial concept: the value of any currency is directly related to its ability to facilitate exchange. Indeed, if an object is not accepted by anyone in exchange for goods or services, it theoretically has no monetary utility. For example, if no merchant accepts pebbles as a means of payment, they have no use as money. Of course, utility remains a subjective notion on an individual scale, but in a given territory, the greater the number of merchants accepting an object as a means of exchange, the more likely it is that this object has a monetary utility for the people living in this territory.
 
 
-Let's take the example of a village where many merchants accept gold in exchange for goods: chances are that gold has a monetary utility for the villagers. This indicates that the utility of a currency depends directly on merchants' decisions to accept it or not.
+Let's take the example of a village where many merchants accept gold in exchange for goods: chances are that gold has a monetary utility for the villagers. This indicates that the utility of a currency depends directly on merchants' decisions to accept or reject it.
 
 
 This concept is crucial for understanding the power dynamics at play in the Bitcoin system. Satoshi makes it clear: Bitcoin is an electronic cash system; in other words, it provides a service that offers a form of currency, Bitcoin (or BTC). When the protocol rules are modified in a way that is not backward compatible (Hard Fork), this amounts to creating a new system and therefore a new currency. The success or failure of this Fork then depends on the size of its economy, which in turn is determined by the number of merchants accepting this new form of currency.
@@ -795,7 +795,7 @@ Having explored the various software solutions, it's now time to choose the mach
 <chapterId>245d6add-9cda-46b9-9343-31dcdd70456e</chapterId>
 
 
-Now that we've explored all the software possibilities, let's focus on the hardware required for your node. I'm going to provide you with some concrete advice on selecting your components, along with configurations tailored to suit different budgets. Of course, this is my personal opinion and feedback: there are certainly other relevant alternatives in addition to those presented here. Furthermore, I won't revisit the pre-assembled machines offered by node-in-a-box projects, which we've already covered in the previous chapter. Here, we will focus exclusively on DIY solutions.
+Now that we've explored all the software possibilities, let's focus on the hardware required for your node. I'll provide you with some concrete advice on selecting your components, along with configurations tailored to suit different budgets. Of course, this is my personal opinion and feedback: there are certainly other relevant alternatives in addition to those presented here. Furthermore, I won't revisit the pre-assembled machines offered by node-in-a-box projects, which we've already covered in the previous chapter. Here, we will focus exclusively on DIY solutions.
 
 
 ### Do you really need a dedicated machine?
@@ -828,7 +828,7 @@ Be careful, however, if you're using a laptop: the battery can become a problem 
 #### Reconditioned or used
 
 
-The market is full of refurbished business mini-PCs such as *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini*, or *Dell OptiPlex Micro*. These machines are solid, compact, silent, and energy-efficient. Their price is well below new, and it's easy to find models equipped with 6th to 10th generation i5/i7 processors with 8 to 16 GB RAM, all for very attractive prices, generally between €70 and €200 depending on configuration. In my opinion, this is probably the best option if you're looking for a dedicated machine for your Bitcoin node.
+The market is full of refurbished business mini-PCs such as *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini*, or *Dell OptiPlex Micro*. These machines are solid, compact, silent, and energy-efficient. Their price is well below new, and it's easy to find models equipped with 6th to 10th generation i5/i7 processors and 8 to 16 GB RAM, all for very attractive prices, generally between €70 and €200, depending on the configuration. In my opinion, this is likely the best option if you're seeking a dedicated machine for your Bitcoin node.
 
 
 ![Image](assets/fr/075.webp)
@@ -876,7 +876,7 @@ It's an excellent low-cost alternative to the mini-PC: today, you can find used 
 ![Image](assets/fr/076.webp)
 
 
-**Highlights:** all-in-one solution, battery acts as a UPS (no blackouts), simplified installation thanks to integrated display and keyboard, integrated Wi-Fi card, wide choice of used and new markets (which often means you can negotiate prices).
+**Highlights:** All-in-one solution, battery acts as a UPS (no blackouts), simplified installation thanks to integrated display and keyboard, integrated Wi-Fi card, and a wide choice of used and new markets (which often means you can negotiate prices).
 
 
 **Weaknesses:** slightly higher power consumption than a bare Mini-PC, gradual battery wear in 24/7 operation with loss of capacity, rare but real risk of battery swelling or thermal runaway with age. It's mainly this aspect that makes me consider the mini-PC a better option than the laptop: the gradual degradation of the battery and the associated risks.
@@ -1032,7 +1032,7 @@ Depending on your intended use, you can opt for either a 2TB SSD, as in the othe
 
 
 
-- Always use the original manufacturer's power supply for your machine. This is crucial to prevent damage to your equipment and to prevent starting a fire.
+- Always use the original manufacturer's power supply for your machine. This is crucial to prevent damage to your equipment and to prevent the risk of starting a fire.
 
 
 
@@ -1064,7 +1064,7 @@ Umbrel is a personal server operating system designed to make self-hosting acces
 The project first popularized the idea of a one-click Bitcoin and Lightning node, then expanded into a veritable "home cloud": file and photo storage, multimedia streaming, network tools, home automation, local AI, and hundreds of apps installable from an integrated App Store.
 
 
-In Umbrel, each application runs in a Docker container (isolation, atomic updates, independent start/stop). The Interface centralizes access to all these apps: single sign-on (with optional 2FA), one-click updates for OS and apps, live supervision of the machine (CPU, RAM, temperature, storage), permissions management between apps, and an overview of their consumption.
+In Umbrel, each application runs in a Docker container (isolation, atomic updates, independent start/stop). The Interface centralizes access to all these apps, offering single sign-on (with optional 2FA), one-click updates for OS and apps, live monitoring of the machine (CPU, RAM, temperature, storage), permissions management between apps, and an overview of their consumption.
 
 
 Umbrel's aim is therefore to give you back control and confidentiality over your data, without relying on cloud services, beyond simply operating a Bitcoin node.
@@ -1077,7 +1077,7 @@ Umbrel offers two distinct approaches:
 
 
 
-- [Umbrel Home**](https://umbrel.com/umbrel-home): this is a ready-to-use mini-server, specially designed and optimized for umbrelOS. Compact, silent, Ethernet-connected, it's equipped with an NVMe SSD (up to 4TB optional), 16GB RAM, and a quad-core CPU. You order it, plug it in, and go to `umbrel.local`. You've got an operational Umbrel in minutes. That's the plug-and-play option.
+- [Umbrel Home**](https://umbrel.com/umbrel-home): this is a ready-to-use mini-server, specially designed and optimized for umbrelOS. Compact, silent, Ethernet-connected, it's equipped with an NVMe SSD (up to 4TB optional), 16GB RAM, and a quad-core CPU. You order it, plug it in, and go to `umbrel.local`. You can have an operational Umbrel up and running in minutes. That's the plug-and-play option.
 
 
 ![Image](assets/fr/081.webp)
@@ -1138,7 +1138,7 @@ One of Umbrel's key advantages over its competitors is its vast and highly activ
 ### UmbrelOS license
 
 
-Umbrel's code is publicly available (you can view it, fork it, and modify it), but it is not under a true open-source license. In fact, umbrelOS is distributed under the [*PolyForm Noncommercial 1.0*] license (https://polyformproject.org/licenses/noncommercial/1.0.0/), although some associated development tools are available under the MIT license.
+Umbrel's code is publicly available (you can view, fork, and modify it), but it is not under a true open-source license. In fact, umbrelOS is distributed under the [*PolyForm Noncommercial 1.0*] license (https://polyformproject.org/licenses/noncommercial/1.0.0/), although some associated development tools are available under the MIT license.
 
 
 In practical terms, you can do pretty much anything you like with umbrelOS, as long as it's for personal, non-commercial use: modification, redistribution for non-profit purposes, creation of derivatives for yourself or for non-profit organizations, provided you respect the legal notices.
@@ -1159,7 +1159,7 @@ However, each application in the Store retains its own license, often open sourc
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
 
 
-Now that we have all the necessary information, it's time to get down to the details. In this tutorial, we'll show you how to install a complete Bitcoin node using UmbrelOS.
+Now that we have all the necessary information, it's time to delve into the details. In this tutorial, we'll show you how to install a complete Bitcoin node using UmbrelOS.
 
 
 ### Materials required
@@ -1173,7 +1173,7 @@ If you've opted for a Raspberry Pi 5 (an option I don't recommend, as mentioned 
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-As mentioned in the previous section, I chose to run this tutorial on a small refurbished PC that I found at a good price: a *Lenovo ThinkCentre M900 Tiny* equipped with an Intel Core i7 processor and 16 GB RAM. This is a very comfortable configuration for running Umbrel, especially for a Bitcoin node. However, I chose this configuration because I want to install a Lightning node and other more demanding applications later on. I've also added a 2TB SSD to my ThinkCentre to retain the full Blockchain and still have a comfortable margin. With this configuration, the total cost is €270, all-inclusive.
+As mentioned in the previous section, I chose to run this tutorial on a small refurbished PC that I found at a good price: a *Lenovo ThinkCentre M900 Tiny* equipped with an Intel Core i7 processor and 16 GB RAM. This is a very comfortable configuration for running Umbrel, especially for a Bitcoin node. However, I chose this configuration because I want to install a Lightning node and other more demanding applications later on. I've also added a 2TB SSD to my ThinkCentre to retain the full Blockchain and still have a comfortable margin. With this configuration, the total cost is €270, inclusive of all expenses.
 
 
 ![Image](assets/fr/001.webp)
@@ -1239,7 +1239,7 @@ Plug a USB key into your computer (the one on which you've just downloaded the U
 - Burn the ISO image to the USB stick with Balena Etcher :
 
 
-Launch Balena Etcher and select the `umbrelos-amd64-usb-installer.iso` ISO file you've just downloaded by clicking on the "*Flash from file*" button. Then select the USB key as the target device and click on "*Flash!*" to start writing.
+Launch Balena Etcher and select the `umbrelos-amd64-usb-installer.iso` ISO file you've just downloaded by clicking on the "*Flash from file*" button. Then, select the USB key as the target device and click "*Flash!*" to begin writing.
 
 
 ![Image](assets/fr/004.webp)
@@ -1330,7 +1330,7 @@ http://umbrel.local
 ```
 
 
-This address is used to access the Interface graphical user interface of Umbrel remotely and begin configuration.
+This address is used to access the Umbrel Interface graphical user interface remotely and begin configuration.
 
 
 If the address `http://umbrel.local` doesn't work on your browser after waiting at least 5 minutes, simply try :
@@ -1392,7 +1392,7 @@ To start configuring your Umbrel, click on the "*Start*" button.
 Choose a pseudonym or enter your name, then set a strong password. Be careful: this password is the only barrier protecting access to your Umbrel from your network (and therefore, potentially, to your bitcoins if you run a Lightning node on Umbrel). It also protects remote access via Tor or VPN, if these services are enabled.
 
 
-Choose a strong password and ensure you keep one or more backups (a password manager is recommended).
+Choose a strong password and ensure you keep at least one backup (a password manager is recommended).
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
@@ -1452,7 +1452,7 @@ Umbrel's Interface is quite intuitive:
 #### Security and connection settings
 
 
-First and foremost, I strongly recommend that you enable two-factor authentication (2FA). This adds an extra layer of security to your password. It's almost indispensable if you plan to use your Umbrel to store personal files, run a Lightning node, or perform any other sensitive activity.
+First and foremost, I strongly recommend enabling two-factor authentication (2FA). This adds an extra layer of security to your password. It's almost indispensable if you plan to use your Umbrel to store personal files, run a Lightning node, or perform any other sensitive activity.
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -1478,7 +1478,7 @@ Regarding remote access via Tor, if you don't need it, I recommend leaving this 
 If you enable this feature, it theoretically becomes possible for any machine in the world to attempt a connection to your node, provided it knows the Tor address. However, your password and 2FA will still protect you.
 
 
-If you activate this option, ensure that you have 2FA enabled, a strong password, and never disclose your Tor connection address.
+If you activate this option, ensure that you have two-factor authentication (2FA) enabled, a strong password, and never disclose your Tor connection address.
 
 
 Simply enter this Tor address in your Tor browser to access Umbrel's Interface from any network.
@@ -1526,7 +1526,7 @@ To speed up IBD slightly, you can increase the RAM allocated to the node cache (
 By default, the value of the `dbcache` parameter in Bitcoin Core is set to 450 MiB, or around 472 MB. By increasing this value, you can slightly speed up IBD. However, I wouldn't necessarily recommend pushing this parameter too high: even setting it to 4 GiB will only make synchronization about 10% faster, and may cause you to lose time in the event of an interruption during IBD.
 
 
-Be cautious not to allocate too large a value for your machine. If the RAM available for UmbrelOS runs out, your node may stop abruptly, interrupting the IBD and requiring you to restart it manually, resulting in a considerable loss of time.
+Be cautious not to allocate a value that is too large for your machine. If the RAM available for UmbrelOS runs out, your node may stop abruptly, interrupting the IBD and requiring you to restart it manually, resulting in a considerable loss of time.
 
 
 To find out more about the impact of the `dbcache` parameter on initial synchronization, I recommend this analysis by Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
@@ -1559,13 +1559,13 @@ If you've already explored Bitcoin nodes before taking this course, you may have
 ### What is an indexer?
 
 
-Generally speaking, an indexer is a program that scans a set of raw data, extracts relevant keys (such as words, identifiers, and addresses), and builds an auxiliary file, called an "index", where each key refers to the exact location of the data in the corpus. This pre-processing phase utilizes CPU time and requires some disk space, but it eliminates the need to process the entire corpus each time the database is queried: simply interrogate the index to obtain an almost immediate response.
+Generally speaking, an indexer is a program that scans a set of raw data, extracts relevant keys (such as words, identifiers, and addresses), and builds an auxiliary file, called an "index", where each key refers to the exact location of the data in the corpus. This pre-processing phase utilizes CPU time and requires some disk space, but it eliminates the need to process the entire corpus each time the database is queried; simply interrogating the index yields an almost immediate response.
 
 
 In layman's terms, it's the same principle as an index in a book: if you're looking for a specific piece of information, rather than rereading the whole book, you consult the index to directly find the page where the information you're looking for appears.
 
 
-In a Bitcoin node, such as Bitcoin Core, Blockchain data is stored in its raw, chronological form. Each block contains transactions, which in turn contain inputs and outputs, without any particular classification by address, identifier, or portfolio. This linear organization is optimized for block validation, but unsuitable for targeted searches. For example, if you wanted to find all transactions linked to a specific address in a non-indexed node, you'd have to go through the entire blockchain manually, block by block, transaction by transaction. This is precisely where the indexer on your Bitcoin node comes in.
+In a Bitcoin node, such as Bitcoin Core, Blockchain data is stored in its raw, chronological form. Each block contains transactions, which in turn contain inputs and outputs, without any particular classification by address, identifier, or portfolio. This linear organization is optimized for block validation, but unsuitable for targeted searches. For example, if you wanted to find all transactions linked to a specific address in a non-indexed node, you'd have to manually review the entire blockchain, block by block and transaction by transaction. This is precisely where the indexer on your Bitcoin node comes in.
 
 
 ![Image](assets/fr/085.webp)
@@ -1616,7 +1616,7 @@ Bitcoin Core does have an optional transaction indexer (`txindex`), a vestige of
 ### Should you add an address indexer to your node?
 
 
-Adding an address indexer, such as Electrs or Fulcrum, is by no means mandatory; it all depends on your specific needs.
+Adding an address indexer, such as Electrs or Fulcrum, is not mandatory; it depends on your specific needs.
 
 
 If you simply want to connect a wallet, such as Sparrow, to your node to view balances and broadcast transactions, this is entirely possible directly via Bitcoin Core's Interface RPC, either locally or remotely via Tor.
@@ -1837,7 +1837,7 @@ Umbrel offers several block explorers:
 - BTC RPC Explorer
 
 
-I'm particularly fond of Mempool.Space, which I've installed on my node. Please note: to use most block explorers on Umbrel, an address indexer is required. You therefore need the Bitcoin Node (or Bitcoin Knots) application with a 100% synchronized blockchain, as well as an indexer such as Electrs or Fulcrum, which is also 100% synchronized.
+I'm particularly fond of Mempool.Space, which I've installed on my node. Please note: to use most block explorers on Umbrel, an address indexer is required. You therefore need the Bitcoin Node (or Bitcoin Knots) application, which has a 100% synchronized blockchain, as well as an indexer such as Electrs or Fulcrum, which is also 100% synchronized.
 
 
 Once the application is installed, simply open it to access your own explorer.
@@ -1996,10 +1996,10 @@ To kick off this final section, and before moving on to more advanced theory, I'
 ### Keeping equipment healthy
 
 
-A reliable node starts with stable hardware. Ensure the machine housing your node is properly ventilated, dust-free, and installed in a dry environment, away from any sources of heat. Avoid cramming it into a confined space and opt for a well-ventilated location.
+A reliable node starts with stable hardware. Ensure the machine housing your node is properly ventilated, dust-free, and installed in a dry environment, away from any sources of heat and humidity. Avoid cramming it into a confined space and opt for a well-ventilated location.
 
 
-On Raspberry Pi and mini-PCs, dust eventually clogs the heatsinks, raising the temperature and leading to throttling (voluntary limitation of resource use), which in turn results in a drop in your node's efficiency. That's why I recommend cleaning the air intake and fan a few times a year.
+On Raspberry Pi and mini-PCs, dust eventually clogs the heatsinks, raising the temperature and leading to throttling (voluntary limitation of resource use), which in turn results in a drop in your node's efficiency. That's why I recommend cleaning the air intake and fan periodically, ideally every few years.
 
 
 Ensure you use a high-quality power supply, as unstable voltage can lead to system corruption and even pose a fire hazard. Ideally, you should use the original power supply supplied by the manufacturer of your machine. Beware, too, of overheating due to the Joule effect on power strips: always respect the maximum permissible power and never connect several power strips in cascade.
@@ -2052,7 +2052,7 @@ We'll revisit these aspects in detail in the next LNP 202 training course.
 In terms of security, use a long, unique, and random password for Interface Umbrel, and remember to activate two-factor authentication (2FA). For applications that offer both password and 2FA protection, always activate both and change the default passwords.
 
 
-Never expose the dashboard to the Internet without using a secure gateway (VPN, Tor, or local access only). Limit the number of applications you install, and regularly delete those you no longer need, to reduce the attack surface.
+Never expose the dashboard to the Internet without using a secure gateway (such as a VPN, Tor, or local access only). Limit the number of applications you install, and regularly delete those you no longer need, to reduce the attack surface.
 
 
 To deepen your knowledge of computer security in general, I highly recommend you check out this other free course:
@@ -2207,7 +2207,7 @@ When your node has completed its initial synchronization, it stores several comp
 - and the **Mempool** is stored in RAM and periodically serialized.
 
 
-In addition, a number of auxiliary files (peers, fee estimates, exclusion lists, portfolios, etc.) complete the picture. Let's discover the role of all these files.
+Additionally, several auxiliary files (peers, fee estimates, exclusion lists, portfolios, etc.) complete the picture. Let's discover the role of all these files.
 
 
 ### Where are the node's data actually located?
@@ -2225,7 +2225,7 @@ By default, Bitcoin Core saves its data in a specific working directory. Under G
 Blockchain is, therefore, a collection of blocks. A complete node stores these blocks as sequential flat files and maintains a parallel index for quick retrieval. When needed (reorganization, portfolio rescan, peer service), this data is re-read as is.
 
 
-**Note:** A reorganization, or resynchronization, is a phenomenon in which the Blockchain undergoes a modification of its structure due to the existence of competing blocks at the same height. This happens when a portion of the blockchain is replaced by another chain with a greater amount of accumulated work. These resynchronizations are part of Bitcoin's natural operation, where different miners can find new blocks almost simultaneously, thus splitting the Bitcoin network in two. In such cases, the network may temporarily split into competing chains. Eventually, as one of these chains accumulates more work, the other chains are abandoned by the nodes, and their blocks become known as "obsolete blocks" or "orphan blocks." This process of replacing one chain with another is called resynchronization.
+**Note:** A reorganization, or resynchronization, is a phenomenon in which the Blockchain undergoes a modification of its structure due to the existence of competing blocks at the same height. This happens when a portion of the blockchain is replaced by another chain with a greater amount of accumulated work. These resynchronizations are a natural part of Bitcoin's operation, where different miners can find new blocks almost simultaneously, thereby splitting the Bitcoin network in two. In such cases, the network may temporarily split into competing chains. Eventually, as one of these chains accumulates more work, the other chains are abandoned by the nodes, and their blocks become known as "obsolete blocks" or "orphan blocks." This process of replacing one chain with another is called resynchronization.
 
 
 #### Blk*.dat files (raw block data)
@@ -2312,7 +2312,7 @@ Since a portion of it must be kept in RAM to verify transactions in a reasonable
 ### The Mempool
 
 
-The mempool is the local set of valid transactions received but not yet confirmed. As a reminder, a "confirmed transaction" is one that has been included in a valid block. Each node maintains its own Mempool, which may differ from that of other nodes in the network depending on :
+The mempool is the local set of valid transactions that have been received but not yet confirmed. As a reminder, a "confirmed transaction" is one that has been included in a valid block. Each node maintains its own Mempool, which may differ from that of other nodes in the network depending on :
 
 
 - the size allocated to the Mempool via the `maxmempool` parameter: a node with a larger Mempool will be able to hold more transactions than a node with a smaller Mempool (unless the latter becomes empty);
@@ -2538,7 +2538,7 @@ To be fully Tor-enabled, you need to force Bitcoin Core to use only this network
 All your P2P connections go through Tor. Your node receives a `.onion` address for incoming connections, so no ports need to be opened on the router. Your ISP only sees Tor traffic, and your peers are unaware of your public IP.
 
 
-To avoid DNS resolution in the clear, you can add `dnsseed=0` and `dns=0`. You'll then need to manually provide `.onion` peers via `seednode=` or `addnode=`, as discovery of new nodes will be difficult otherwise.
+To avoid DNS resolution in the clear, you can add `dnsseed=0` and `dns=0` to your configuration. You'll then need to manually provide `.onion` peers via `seednode=` or `addnode=`, as discovery of new nodes will be difficult otherwise.
 
 
 Obviously, if you're a beginner, I'd advise you to leave all these network settings alone for the time being. The default configuration is often sufficient.
