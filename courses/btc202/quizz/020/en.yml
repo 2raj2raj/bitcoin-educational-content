@@ -6,4 +6,4 @@ wrong_answers:
   - It is validated only by the portfolios
 explanation: |
   Nodes systematically reject any block that does not comply with the consensus rules.
-reviewed: false
+reviewed: true
