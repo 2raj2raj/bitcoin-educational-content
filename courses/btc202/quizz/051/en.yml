@@ -1,7 +1,7 @@
 question: When must a user install an indexer?
 answer: To run a block explorer
 wrong_answers:
-  - For Miner blocks, yourself
+  - For mining blocks oneself
   - To activate the Lightning Network
   - To sign transactions
 explanation: |
