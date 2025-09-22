@@ -91,7 +91,7 @@ We'll then take the time to review some of the theory covered earlier in the cou
 ### Part 6 - Final section
 
 
-As with all Plan ₿ Network training courses, in the final section, you'll find a final exam to test your knowledge of Bitcoin nodes.
+As with all Plan ₿ Network courses, in the final section, you'll find a final exam to test your knowledge of Bitcoin nodes.
 
 
 So, are you ready to turn on your first Bitcoin node? Set a course for sovereignty!
@@ -133,7 +133,7 @@ We can thus distinguish and name several concepts to clarify things for the rest
 
 - Bitcoin currency: the unit of account used for transactions within this system;
 - The Bitcoin network: the set of all connected nodes;
-- Bitcoin nodes: machines running an implementation of Bitcoin ;
+- Bitcoin nodes: machines running an implementation of Bitcoin;
 - Bitcoin implementations: software that translates the protocol into executable instructions;
 - Bitcoin protocol: the set of rules governing the system's operation;
 - The Bitcoin system: the coherent combination of all these elements.
@@ -145,7 +145,7 @@ We can thus distinguish and name several concepts to clarify things for the rest
 The Bitcoin nodes together form what is known as the Bitcoin network. They enable the entire system to operate autonomously, without recourse to a central authority or hierarchy of servers.
 
 
-From the outset, Bitcoin was designed to allow each user to run a personal node. This remains the case with today's Bitcoin Core software, which combines the roles of wallet and node. But nowadays, this function is often dissociated: many modern Bitcoin wallets are just wallets that connect to external nodes (owned by the same person or not).
+From the outset, Bitcoin was designed to allow each user to run a personal node. This case remains valid with today's Bitcoin Core software, which combines the roles of wallet and node. But nowadays, this function is often dissociated: many modern Bitcoin wallets are just wallets that connect to external nodes (owned by the same person or not).
 
 
 ### Keep Blockchain
@@ -292,9 +292,9 @@ In theory, Bitcoin Core does not represent the Bitcoin protocol; rather, it is j
 According to [data collected in August 2025 by Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (a well-known developer in the ecosystem), the distribution of implementations among the network's public nodes is as follows:
 
 
-- Bitcoin Core: 87.3% of nodes
-- Bitcoin Knots: 12.5
-- Other cumulative implementations: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin Core**: 87.3% of nodes
+- **Bitcoin Knots**: 12.5
+- **Other cumulative implementations**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 ![Image](assets/fr/056.webp)
@@ -309,10 +309,10 @@ In other words, around 9 out of 10 public nodes are running Bitcoin Core. The re
 ### Internal operation of Bitcoin Core
 
 
-Bitcoin Core is written in C++. It is also an open source project that is maintained by a community of developers who volunteer or are paid by various entities (often by companies in the ecosystem that have a vested interest in Core's development). [Code is hosted on GitHub](https://github.com/Bitcoin/Bitcoin), and development follows a rigorous :
+Bitcoin Core is written in C++. It is also an open source project that is maintained by a community of developers who volunteer or are paid by various entities (often by companies in the ecosystem that have a vested interest in Core's development). [Code is hosted on GitHub](https://github.com/Bitcoin/Bitcoin), and development follows a rigorous:
 
 
-- Contributors submit proposals in the form of _pull requests_ (PR). In principle, anyone can propose a change, but it must be tested, documented, and go through a peer review process.
+- **Contributors** submit proposals in the form of _pull requests_ (PR). In principle, anyone can propose a change, but it must be tested, documented, and go through a peer review process.
 - The **maintainers** have the right to approve and merge PRs. They are the ones who guarantee the coherence and stability of the project. In July 2025, there are five of them: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao, and Ryan Ofsky.
 - There has been no **principal maintainer** since February 2023. This role was initially held by Satoshi Nakamoto at the launch of Bitcoin, then by Gavin Andresen following Nakamoto's departure in early 2011, and finally by Wladimir J. Van Der Laan from 2014 to 2023.
 
@@ -332,12 +332,12 @@ Although marginal in terms of adoption, other clients do exist. The main one is 
 ![Image](assets/fr/058.webp)
 
 
-We can also mention :
+We can also mention:
 
 
-- Libbitcoin: a modular C++ library developed by Amir Taaki and maintained by Eric Voskuil ;
-- Bcoin: a JavaScript implementation, no longer actively maintained ;
-- BTCD/btcsuite: an implementation in Go.
+- **Libbitcoin**: a modular C++ library developed by Amir Taaki and maintained by Eric Voskuil;
+- **Bcoin**: a JavaScript implementation, no longer actively maintained;
+- **BTCD/btcsuit**e: an implementation in Go.
 
 
 These projects contribute to the diversity of the ecosystem, but their adoption remains very limited, making it difficult for Bitcoin Core to evolve independently.
@@ -444,7 +444,7 @@ An important aspect, often misunderstood, is that operating a node allows you to
 
 
 
-- Consensus rules:
+- **Consensus rules**:
 
 
 These are the fundamental rules of the Bitcoin protocol, ensuring the system's integrity and establishing the criteria for validating transactions and blocks. Any transaction that does not comply with these consensus rules can never be included in a valid block. For example, a transaction with an invalid signature on one of its entries will be systematically excluded.
@@ -454,7 +454,7 @@ Changing these rules is equivalent to changing the protocol, and therefore the c
 
 
 
-- Relay rules:
+- **Relay rules**:
 
 
 These are rules specific to each Bitcoin node, which are added to the consensus rules to define the structure of unconfirmed transactions accepted in the Mempool and relayed to peers. Each node configures and applies these rules locally, which explains why they may differ from one node to another. They only apply to unconfirmed transactions: a transaction deemed "non-standard" by a node will only be accepted if it already appears in a valid block. Changing these rules does not exclude the node from the Bitcoin system.
@@ -609,7 +609,7 @@ An intermediate user with a PC can install a pruned node to benefit from almost 
 - Sovereign Bitcoiner / advanced
 
 
-A complete node remains the best solution if you want to be totally independent in your use of Bitcoin and not limit yourself later on to advanced uses such as an indexer, a Lightning node, or even a block explorer. That's exactly what we're going to explore in this training course!
+A complete node remains the best solution if you want to be totally independent in your use of Bitcoin and not limit yourself later on to advanced uses such as an indexer, a Lightning node, or even a block explorer. That's exactly what we're going to explore in this course!
 
 
 ## Overview of software solutions
@@ -661,9 +661,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 There are 2 possible reasons for choosing Knots over Core:
 
 
-- Techniques: Different options from Core, particularly in terms of relay management, by determining which transactions are accepted and broadcast by your node.
-- Policy: Some people prefer to use alternative clients such as Knots for non-technical reasons, notably to support an alternative to Core and thus reduce its monopoly. If Core were ever compromised, it would be useful not only to have solid, well-maintained alternative clients but also to know how to utilize them effectively. Others use Knots for protest purposes, because they have lost confidence in Core's developers or disapprove of the majority of the client's management.
-
+- **Techniques**: Different options from Core, particularly in terms of relay management, by determining which transactions are accepted and broadcast by your node.
+- **Policy**: Some people prefer to use alternative clients such as Knots for non-technical reasons, notably to support an alternative to Core and thus reduce its monopoly. If Core were ever compromised, it would be useful not only to have solid, well-maintained alternative clients but also to know how to utilize them effectively. Others use Knots for protest purposes, because they have lost confidence in Core's developers or disapprove of the majority of the client's management.
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
@@ -903,7 +902,7 @@ In practice, if your goal is solely to run a Bitcoin node without additional app
 The Raspberry Pi has a number of disadvantages:
 
 
-- processors that are too slim, with an ARM architecture that is sometimes incompatible with certain software or requires more handling ;
+- processors that are too slim, with an ARM architecture that is sometimes incompatible with certain software or requires more handling;
 - Soldered RAM, impossible to upgrade, with limited configurations (often a maximum of 8 GB);
 - external boxes for SSDs connected by cable, frequent sources of bugs, requiring the purchase of a specific card for a stable SSD;
 - tendency to heat up quickly and difficulty in ensuring correct cooling;
@@ -1004,7 +1003,7 @@ With this machine, you have a comfortable configuration: a fast IBD and the abil
 With a larger budget, the possibilities become significantly wider. You can choose a DIY configuration, or even opt for a pre-assembled machine offered directly by a node-in-a-box project.
 
 
-For example, the ASUS NUC 14 Pro is available new from Amazon for €540. For this price, you get an Intel Core Ultra 5 processor (recent and particularly high-performance), accompanied by 16 GB of DDR5 RAM. With such a configuration, you'll be able to complete an IBD in record time and install demanding applications without difficulty.
+For example, the *ASUS NUC 14 Pro* is available new from Amazon for €540. For this price, you get an Intel Core Ultra 5 processor (recent and particularly high-performance), accompanied by 16 GB of DDR5 RAM. With such a configuration, you'll be able to complete an IBD in record time and install demanding applications without difficulty.
 
 
 This is an extremely comfortable configuration, even overkill if the initial objective is simply to run a Bitcoin node. On the other hand, if you want to take full advantage of all the self-hosting applications available on Umbrel and Start9, this power level is just right for you.
@@ -1077,7 +1076,7 @@ Umbrel offers two distinct approaches:
 
 
 
-- [Umbrel Home**](https://umbrel.com/umbrel-home): this is a ready-to-use mini-server, specially designed and optimized for umbrelOS. Compact, silent, Ethernet-connected, it's equipped with an NVMe SSD (up to 4TB optional), 16GB RAM, and a quad-core CPU. You order it, plug it in, and go to `umbrel.local`. You can have an operational Umbrel up and running in minutes. That's the plug-and-play option.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): this is a ready-to-use mini-server, specially designed and optimized for umbrelOS. Compact, silent, Ethernet-connected, it's equipped with an NVMe SSD (up to 4TB optional), 16GB RAM, and a quad-core CPU. You order it, plug it in, and go to `umbrel.local`. You can have an operational Umbrel up and running in minutes. That's the plug-and-play option.
 
 
 ![Image](assets/fr/081.webp)
@@ -1106,21 +1105,21 @@ Umbrel can remain very minimalist and focused solely on Bitcoin, or evolve into 
 
 
 
-- Simple Bitcoin node: this is the founding use on which Umbrel has relied from the outset. You can run Bitcoin Core (or Knots), connect your wallets directly to your node, expose an Electrum server, host your Mempool block explorer to view the Blockchain, and estimate charges... It's these uses that we'll be focusing on in this training course.
+- **Simple Bitcoin node**: this is the founding use on which Umbrel has relied from the outset. You can run Bitcoin Core (or Knots), connect your wallets directly to your node, expose an Electrum server, host your Mempool block explorer to view the Blockchain, and estimate charges... It's these uses that we'll be focusing on in this course.
 
 
 ![Image](assets/fr/082.webp)
 
 
 
-- Lightning Network: Umbrel also lets you deploy LND or Core Lightning, two implementations of the Lightning Network, to manage your own Lightning node. You'll be able to open channels, manage your liquidity, make payments, automate balancing, offer services, connect a remote wallet, or take advantage of advanced Interface management thanks to the many applications available. We'll be looking at this specific use case in our next LNP 202 training course.
+- **Lightning Network**: Umbrel also lets you deploy LND or Core Lightning, two implementations of the Lightning Network, to manage your own Lightning node. You'll be able to open channels, manage your liquidity, make payments, automate balancing, offer services, connect a remote wallet, or take advantage of advanced Interface management thanks to the many applications available. We'll be looking at this specific use case in our next LNP 202 course.
 
 
 ![Image](assets/fr/083.webp)
 
 
 
-- General self-hosting: with Nextcloud, Immich, Jellyfin/Plex, DNS-wide ad blockers (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), home automation (Home Assistant), backups, note management, office tools, local AI (Ollama + Open WebUI)... Umbrel can become your personal server, allowing you to regain control of your data. You host the services you use every day yourself, with a polished user experience that closely resembles external solutions, while retaining total control over your data and privacy.
+- **General self-hosting**: with Nextcloud, Immich, Jellyfin/Plex, DNS-wide ad blockers (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), home automation (Home Assistant), backups, note management, office tools, local AI (Ollama + Open WebUI)... Umbrel can become your personal server, allowing you to regain control of your data. You host the services you use every day yourself, with a polished user experience that closely resembles external solutions, while retaining total control over your data and privacy.
 
 
 By deploying applications in containers, you can shape Umbrel as you wish: start with a simple Bitcoin node and a few apps linked to its ecosystem, then install a Lightning node alongside your Bitcoin node, and gradually enrich your instance with the self-hosting applications you need.
@@ -1168,7 +1167,7 @@ Now that we have all the necessary information, it's time to delve into the deta
 Here, we'll be using the UmbrelOS x86 image (more precisely, the x86_64 version). You'll be able to follow this guide on whatever machine you choose, as long as it's not equipped with an ARM architecture processor (no Apple Silicon, Raspberry Pi, etc.). This means that any computer with an Intel or AMD 64-bit processor will suffice, as long as it meets the minimum requirements, depending on how you intend to use your Umbrel (at least a dual-core processor is recommended).
 
 
-If you've opted for a Raspberry Pi 5 (an option I don't recommend, as mentioned in the previous section), the installation is slightly different. You can then follow this dedicated tutorial and return to my course once on the Interface web `http://umbrel.local` :
+If you've opted for a Raspberry Pi 5 (an option I don't recommend, as mentioned in the previous section), the installation is slightly different. You can then follow this dedicated tutorial and return to my course once on the Interface web `http://umbrel.local`:
 
 
 https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
@@ -1188,11 +1187,11 @@ If, like me, you've opted for a PC without a monitor, **you'll need to connect a
 To recap, here are the equipment requirements:
 
 
-- Computer with x86_64 processor (minimum Dual-core, recommended Quad-core) ;
-- RAM memory (4 GB minimum, 8 GB recommended or more for extended use) ;
-- SSD (recommended + 2 TB) ;
-- USB key (+ 4 GB) for UmbrelOS image installation ;
-- Monitor and keyboard (useful only for initial installation if the PC is not equipped with one) ;
+- Computer with x86_64 processor (minimum Dual-core, recommended Quad-core);
+- RAM memory (4 GB minimum, 8 GB recommended or more for extended use);
+- SSD (recommended + 2 TB);
+- USB key (+ 4 GB) for UmbrelOS image installation;
+- Monitor and keyboard (useful only for initial installation if the PC is not equipped with one);
 - RJ45 Ethernet cable.
 
 
@@ -1219,7 +1218,7 @@ Go to [the official Umbrel website to download the ISO image](https://download.u
 
 
 
-- Install Balena Etcher :
+- Install Balena Etcher:
 
 
 To create the bootable USB stick, you'll use a simple, cross-platform tool called [Balena Etcher](https://www.balena.io/etcher/). Download and install it on your computer.
@@ -1229,14 +1228,14 @@ To create the bootable USB stick, you'll use a simple, cross-platform tool calle
 
 
 
-- Insert a blank USB key of at least 4 GB :
+- Insert a blank USB key of at least 4 GB:
 
 
 Plug a USB key into your computer (the one on which you've just downloaded the UmbrelOS and Balena Etcher image). **Warning: all data on the key will be deleted**. Make sure it doesn't contain any important files.
 
 
 
-- Burn the ISO image to the USB stick with Balena Etcher :
+- Burn the ISO image to the USB stick with Balena Etcher:
 
 
 Launch Balena Etcher and select the `umbrelos-amd64-usb-installer.iso` ISO file you've just downloaded by clicking on the "*Flash from file*" button. Then, select the USB key as the target device and click "*Flash!*" to begin writing.
@@ -1315,14 +1314,14 @@ Before restarting the device, check the following two points:
 
 
 
-- The USB key is unplugged: if it remains connected, the system may reboot on it instead of the internal disk;
-- Ethernet cable is plugged in: the device must be connected to your router to operate.
+- **The USB key is unplugged**: if it remains connected, the system may reboot on it instead of the internal disk;
+- **Ethernet cable is plugged in**: the device must be connected to your router to operate.
 
 
 Press the power button. The system boots automatically from the internal disk where UmbrelOS was installed. The first boot may take approximately **5 minutes**. During this time, Umbrel initializes its services and Interface.
 
 
-From another computer (your everyday PC) connected to the **same local network**, open a web browser (Firefox, Chrome...) and go to :
+From another computer (your everyday PC) connected to the **same local network**, open a web browser (Firefox, Chrome...) and go to:
 
 
 ```
@@ -1333,7 +1332,7 @@ http://umbrel.local
 This address is used to access the Umbrel Interface graphical user interface remotely and begin configuration.
 
 
-If the address `http://umbrel.local` doesn't work on your browser after waiting at least 5 minutes, simply try :
+If the address `http://umbrel.local` doesn't work on your browser after waiting at least 5 minutes, simply try:
 
 
 ```
@@ -1341,7 +1340,7 @@ http://umbrel
 ```
 
 
-If this still doesn't work, enter your Umbrel's local IP address directly into the browser. For example (replace `42` with the number of your machine hosting Umbrel on the local network) :
+If this still doesn't work, enter your Umbrel's local IP address directly into the browser. For example (replace `42` with the number of your machine hosting Umbrel on the local network):
 
 
 ```
@@ -1439,10 +1438,10 @@ Umbrel's Interface is quite intuitive:
 
 
 
-- The "*Settings*" menu lets you modify your Umbrel's settings and access its information, including :
-    - Update, restart, or stop your machine ;
+- The "*Settings*" menu lets you modify your Umbrel's settings and access its information, including:
+    - Update, restart, or stop your machine;
     - Consult available storage space, RAM usage, and processor temperature;
-    - Change wallpaper ;
+    - Change wallpaper;
     - Manage remote access via Tor, activate Wi-Fi, or 2FA.
 
 
@@ -1651,7 +1650,7 @@ In concrete terms, in August 2025, Electrs will require approximately 56 GB of s
 - If you've got a comfortable amount of disk space, Fulcrum may be just what you're looking for.
 
 
-For the rest of this BTC 202 training course, I'll be using Electrs, but you can easily follow along with Fulcrum: the installation procedure is identical, as is the Interface connection to the portfolio software, since both expose an Electrum server.
+For the rest of this BTC 202 course, I'll be using Electrs, but you can easily follow along with Fulcrum: the installation procedure is identical, as is the Interface connection to the portfolio software, since both expose an Electrum server.
 
 
 ### How do I install an indexer on Umbrel?
@@ -1683,7 +1682,7 @@ Now that you have a complete Bitcoin node, it's time to put it to good use! In t
 As mentioned above, there are two main connection interfaces:
 
 
-- Direct connection to Bitcoin Core via RPC ;
+- Direct connection to Bitcoin Core via RPC;
 - Or connect to an Electrum server (Electrs or Fulcrum).
 
 
@@ -1803,7 +1802,7 @@ Now you know how to connect your portfolio management software to your Bitcoin n
 Umbrel offers an extensive application store. As you'll see, there are many tools related to Bitcoin, but also a wide variety of applications in very different fields: self-hosting solutions for services and files, productivity applications, more general financial tools, media management, network security and administration, development, artificial intelligence, social networking, and even home automation.
 
 
-In this BTC 202 training course, we'll be concentrating exclusively on Bitcoin-related applications. However, feel free to explore the rest of the catalog for tools that may be of use to you.
+In this BTC 202 course, we'll be concentrating exclusively on Bitcoin-related applications. However, feel free to explore the rest of the catalog for tools that may be of use to you.
 
 
 Of course, it would be impossible to list all the Bitcoin applications here. In this chapter, I'd like to introduce you to the essential tools that will facilitate and enrich your daily use of Bitcoin.
@@ -1915,7 +1914,7 @@ In concrete terms, Tailscale offers you several advantages when using your Umbre
 Tailscale on Umbrel is therefore a very interesting solution if you want to access your node from anywhere in the world in a secure, high-performance, and easy-to-configure way, without sacrificing privacy or security.
 
 
-To install and configure Tailscale on your Umbrel, see this tutorial, section 4: "*Using Tailscale on Umbrel*" :
+To install and configure Tailscale on your Umbrel, see this tutorial, section 4: "*Using Tailscale on Umbrel*":
 
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -1941,7 +1940,7 @@ Nostr clients ***noStrudel*** or ***Snort*** are also available on Umbrel. Thank
 Finally, there's the ***Nostr Wallet Connect*** app on Umbrel, which enables native Lightning payments in Nostr. In concrete terms, you can link your future Lightning node to your Nostr customers to send micro-payments, called "*zaps*", to reward content or interact in a monetized way, without needing to go through a third-party service. These payments are sent directly from your personal node via your channels.
 
 
-To find out how to use all these applications, I recommend you take a look at this complete tutorial :
+To find out how to use all these applications, I recommend you take a look at this complete tutorial:
 
 
 https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
@@ -1968,7 +1967,7 @@ If you own a business and would like to accept bitcoin payments directly via you
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
-- The POS 305 course on using BTCPay Server :
+- The POS 305 course on using BTCPay Server:
 
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
@@ -1999,7 +1998,7 @@ To kick off this final section, and before moving on to more advanced theory, I'
 A reliable node starts with stable hardware. Ensure the machine housing your node is properly ventilated, dust-free, and installed in a dry environment, away from any sources of heat and humidity. Avoid cramming it into a confined space and opt for a well-ventilated location.
 
 
-On Raspberry Pi and mini-PCs, dust eventually clogs the heatsinks, raising the temperature and leading to throttling (voluntary limitation of resource use), which in turn results in a drop in your node's efficiency. That's why I recommend cleaning the air intake and fan periodically, ideally every few years.
+On Raspberry Pi and mini-PCs, dust eventually clogs the heatsinks, raising the temperature and leading to throttling (voluntary limitation of resource use), which in turn results in a drop in your node's efficiency. That's why I recommend cleaning the air intake and fan periodically, ideally every few months.
 
 
 Ensure you use a high-quality power supply, as unstable voltage can lead to system corruption and even pose a fire hazard. Ideally, you should use the original power supply supplied by the manufacturer of your machine. Beware, too, of overheating due to the Joule effect on power strips: always respect the maximum permissible power and never connect several power strips in cascade.
@@ -2037,13 +2036,13 @@ Perform this operation regularly to keep your operating system and applications 
 If you only use your Bitcoin node to validate and distribute your transactions, but your wallets are managed outside Umbrel (e.g., with a Hardware Wallet and Sparrow wallet), there's nothing to back up directly to Umbrel. In this case, the essential backup remains that of the recovery phrase and Descriptor of your external wallet, and this applies whether you use your own node or not. So nothing changes from your previous configuration.
 
 
-On the other hand, depending on the additional applications you use on Umbrel, further backups may be required. This is particularly the case if you operate a Lightning node on Umbrel. In this case, it is absolutely essential to back up the seed supplied when you installed your Lightning node. In addition to the seed, you need an up-to-date ***Static Channel Backup (SCB)*** to be able to restore your Lightning node in the event of a problem. SCB allows you to recover your funds by forcibly closing channels. If the seed or SCB is missing, it is impossible to restore a Lightning node.
+On the other hand, depending on the additional applications you use on Umbrel, further backups may be required. This is particularly the case if you operate a Lightning node on Umbrel. In this case, it is absolutely essential to back up the seed supplied when you installed your Lightning node. In addition to the seed, you need an up-to-date ***Static Channel Backup (SCB)*** to be able to restore your Lightning node in the event of a problem. SCB allows you to recover your funds by forcibly closing channels. If either the seed or the SCB is missing, it is impossible to restore a Lightning node.
 
 
 Umbrel also offers the option of automatically and dynamically backing up this SCB on their servers, via Tor, to ensure that an up-to-date file is always available. In this case, only the seed is needed to restore the node.
 
 
-We'll revisit these aspects in detail in the next LNP 202 training course.
+We'll revisit these aspects in detail in the next LNP202 course.
 
 
 ### Day-to-day operational safety
@@ -2231,7 +2230,7 @@ Blockchain is, therefore, a collection of blocks. A complete node stores these b
 #### Blk*.dat files (raw block data)
 
 
-Received and validated blocks are written to sequential containers named `blkNNNNN.dat`, stored in the `blocks/` folder. Each file is filled in sequence until it reaches a maximum size of 128 MB, at which point Core opens the next file. Inside, each block is serialized in network format, preceded by a magic identifier and a length. This organization enables fast writing to disk and facilitates block service to synchronize peers.
+Received and validated blocks are written to sequential containers named `blkNNNNN.dat`, stored in the `blocks/` folder. Each file is filled in sequence until it reaches a maximum size of 128 MiB, at which point Core opens the next file. Inside, each block is serialized in network format, preceded by a magic identifier and a length. This organization enables fast writing to disk and facilitates block service to synchronize peers.
 
 
 ![Image](assets/fr/099.webp)
@@ -2312,11 +2311,11 @@ Since a portion of it must be kept in RAM to verify transactions in a reasonable
 ### The Mempool
 
 
-The mempool is the local set of valid transactions that have been received but not yet confirmed. As a reminder, a "confirmed transaction" is one that has been included in a valid block. Each node maintains its own Mempool, which may differ from that of other nodes in the network depending on :
+The mempool is the local set of valid transactions that have been received but not yet confirmed. As a reminder, a "confirmed transaction" is one that has been included in a valid block. Each node maintains its own Mempool, which may differ from that of other nodes in the network depending on:
 
 
 - the size allocated to the Mempool via the `maxmempool` parameter: a node with a larger Mempool will be able to hold more transactions than a node with a smaller Mempool (unless the latter becomes empty);
-- gW-433 rules: these are a subset of the node's relay rules and define the characteristics that an unconfirmed transaction must meet in order to be accepted in Mempool ;
+- gW-433 rules: these are a subset of the node's relay rules and define the characteristics that an unconfirmed transaction must meet in order to be accepted in Mempool;
 - transaction percolation: due to various factors, a given transaction may have been distributed to one part of the network, but not yet reached another.
 
 
@@ -2341,7 +2340,7 @@ To speed up restarts, Core periodically serializes the state of the Mempool in t
 ### Auxiliary files and databases
 
 
-Several other files at the same level as `blocks/`, `chainstate/`, and `indexes/` participate in the proper functioning of the :
+Several other files at the same level as `blocks/`, `chainstate/`, and `indexes/` participate in the proper functioning of the:
 
 
 - `peers.dat` keeps an IP address book of potential peers, fed by initial DNS discovery, network exchanges, and manual additions. When the node starts up, it can draw on this file to establish outgoing connections.
@@ -2364,7 +2363,7 @@ As we saw in the first parts of this BTC 202 course, Bitcoin Core is both Bitcoi
 
 
 
-- `wallets/` is the default directory that hosts one or more ;
+- `wallets/` is the default directory that hosts one or more;
 - `wallets/<name>/Wallet.dat` is the SQLite database of the portfolio (keys, descriptors, transaction metadata, etc.);
 - wallets/<name>/Wallet.dat-journal` is the SQLite rollback log.
 
@@ -2503,7 +2502,7 @@ A complete node adds more value to the network by accepting incoming connections
 If you prefer not to open a port on your router, but still accept incoming connections, you can activate the `listenonion=1` parameter. This will achieve the same result, but only through the Tor network rather than clearnet.
 
 
-On the network level, we also have :
+On the network level, we also have:
 
 
 - `addnode`: adds a friendly peer to contact in addition to the usual discovery (can be specified several times).
@@ -2816,7 +2815,7 @@ Finally, the `Bitcoin.conf` file also allows you to configure the access paramet
 
 
 
-- `rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,...` : Whitelist of authorized APIs. Reduces the attack surface by restricting accessible methods.
+- `rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,...`: Whitelist of authorized APIs. Reduces the attack surface by restricting accessible methods.
 
 
 
@@ -2864,7 +2863,7 @@ Finally, the `Bitcoin.conf` file also allows you to configure the access paramet
 
 
 
-- `logips=1` : Logs IP addresses.
+- `logips=1`: Logs IP addresses.
 
 
 
@@ -2892,10 +2891,10 @@ We've reached the conclusion of this BTC 202 course, which will have enabled you
 You can now move on to the final part of the course, where you'll be able to evaluate BTC 202, then take your diploma to check that you've mastered all the concepts covered.
 
 
-You now have several options open to you. The next logical step is to set up your own Lightning node, allowing you to be fully independent for your off-chain transactions. This will be the subject of a forthcoming training course, to be published this autumn 2025 on Plan ₿ Network.
+You now have several options open to you. The next logical step is to set up your own Lightning node, allowing you to be fully independent for your off-chain transactions. This will be the subject of a forthcoming course, to be published this autumn 2025 on Plan ₿ Network.
 
 
-In the meantime, I invite you to discover the BTC 204 training, which will enable you to understand and master the principles of privacy protection in your use of Bitcoin :
+In the meantime, I invite you to discover the BTC 204 training, which will enable you to understand and master the principles of privacy protection in your use of Bitcoin:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
