@@ -6,4 +6,4 @@ wrong_answers:
   - Portfolio register
 explanation: |
   The node keeps the UTXO set, which is the set of unspent outputs available for future transactions.
-reviewed: false
+reviewed: true
