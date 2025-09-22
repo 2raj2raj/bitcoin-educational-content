@@ -6,4 +6,4 @@ wrong_answers:
   - Store private keys for portfolios
 explanation: |
   A miner selects transactions from Mempool and builds a candidate block, which he attempts to validate by proof of work.
-reviewed: false
+reviewed: true
