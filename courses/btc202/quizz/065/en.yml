@@ -6,4 +6,4 @@ wrong_answers:
   - Disable 2FA
 explanation: |
   In the event of a problem, we start by generating a diagnostics bundle in the troubleshooting section to analyze the bug and keep a record.
-reviewed: false
+reviewed: true
