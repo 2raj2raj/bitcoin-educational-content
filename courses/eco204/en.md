@@ -193,6 +193,7 @@ However, the situation changed with the rise of the United States as the dominan
 ### Last example for the road: the Swiss Dinner
 
 The Swiss Dinar illustrates another fascinating aspect of monetary devaluation, this time anchored in the pre-Gulf War Iraqi context. Named after the notable quality of its banknotes, this currency was issued by the Central Bank of Iraq and enjoyed a reputation for stability in the Middle East region. This confidence was mainly due to the quality of the banknote printing, which was done in England, implying a certain robustness against devaluation.
+
 ![image](assets/fr/014.webp)
 
 However, the Gulf Wars marked a turning point in the history of the Swiss Dinar. Iraq, no longer able to rely on its English supplier for banknote printing, turned to China for assistance. This transition resulted in a clear difference in the quality of the banknotes, with the Chinese version being perceived as inferior. This perception was not unfounded; the Chinese banknotes were more easily counterfeitable and susceptible to overprinting by the government, thus threatening their value.
@@ -335,7 +336,7 @@ Because, as this [thread](https://twitter.com/saifedean/status/16736397794335907
 
 ![image](assets/fr/028.webp)
 
-How could Beyoncé or Taylor Swift explain to me the widespread rise in prices? You see, it doesn't make any sense. In short:
+Tell me, how could Beyoncé or Taylor Swift cause the widespread rise in prices? You see, it doesn't make any sense. In short:
 
 ![image](assets/fr/029.webp)
 
@@ -444,16 +445,17 @@ This reflection leads us to question the rigidity of the traditional definition 
 ### The Definition of Hyperinflation According to the International Accounting Standards Board (IASB)
 
 So, how many cases of hyperinflation are there in total?
-Common definitions of hyperinflation, such as the one proposed by Kagan, which states a monthly inflation rate of 50%, can sometimes be confusing or oversimplified. For example, two countries experiencing respective annual inflation rates of 1,000% and 3,000% can be perceived differently depending on the monthly distribution of these inflation rates. If no month exceeds the threshold of 50%, according to Kagan's definition, these countries would not be in a state of hyperinflation. This approach can therefore lead to anomalies in the classification of hyperinflation, especially when comparing cumulative inflation over the year.
+
+Common definitions of hyperinflation, such as the one proposed by Phillip D. Cagan, who defines it as a phenomenon happening when the rate of inflation grows at more than 50% a month, can sometimes be confusing or oversimplified. For example, two countries experiencing respective annual inflation rates of 1,000% and 3,000% can be perceived differently depending on the monthly distribution of these inflation rates. If no month exceeds the threshold of 50%, according to Cagan's definition, these countries would not be in a state of hyperinflation. This approach can therefore lead to anomalies in the classification of hyperinflation, especially when comparing cumulative inflation over the year.
 
 ![image](assets/fr/038.webp)
 
-- Kagan's work, "Monetary Dynamics of Hyperinflation," provides a fundamental analysis of hyperinflation.
-- Bernold's book, which studies 30 distinct periods of hyperinflation, thus expanding the scope of analysis.
+- Cagan's work, "Monetary Dynamics of Hyperinflation," provides a fundamental analysis of hyperinflation.
+- Bernholz's book, which studies 30 distinct periods of hyperinflation, thus expanding the scope of analysis.
 - David's personal collection of banknotes from 36 periods of hyperinflation, allowing for a tangible and historical understanding.
-- The Hanky Cross table (2012 version, updated in 2016 with Venezuela), listing 57 periods of hyperinflation based on Kagan's definition.
+- The Hanky Cross table (2012 version, updated in 2016 with Venezuela), listing 57 periods of hyperinflation based on Cagan's definition.
 
-It is worth noting that certain historical periods of high inflation are not included in the classic tables of hyperinflation, often due to strict classification criteria. For example, during the American War of Independence in November 1779, and during the American Civil War in March 1864, the monthly inflation rates were 47.4% and 40% respectively. These rates, although high, do not exceed the 50% threshold stipulated by Kagan, thus excluding these periods from being classified as hyperinflation cases. This omission highlights the limitations of rigid definitions and underscores the need for a more nuanced understanding of hyperinflation in its full complexity.
+It is worth noting that certain historical periods of high inflation are not included in the classic tables of hyperinflation, often due to strict classification criteria. For example, during the American War of Independence in November 1779, and during the American Civil War in March 1864, the monthly inflation rates were 47.4% and 40% respectively. These rates, although high, do not exceed the 50% threshold stipulated by Cagan, thus excluding these periods from being classified as hyperinflation cases. This omission highlights the limitations of rigid definitions and underscores the need for a more nuanced understanding of hyperinflation in its full complexity.
 
 ## Weimar vs Zimbabwe similarities
 
@@ -757,7 +759,7 @@ On the slide, on the left, are the years of redenomination, the name of the new 
 
 ![image](assets/fr/052.webp)
 
-On the right side of the slide, a graph of inflation is displayed. The red arrows represent years of hyperinflation, as defined by Kagan's criterion, which is an inflation rate of 50% per month. This criterion can sometimes lead to ambiguous interpretations, as years with high inflation rates may not meet the strict definition of hyperinflation.
+On the right side of the slide, a graph of inflation is displayed. The red arrows represent years of hyperinflation, as defined by Cagan's criterion, which is an inflation rate of 50% per month. This criterion can sometimes lead to ambiguous interpretations, as years with high inflation rates may not meet the strict definition of hyperinflation.
 It is worth noting that redenomination, a common measure taken by governments during periods of inflation, is a notable occurrence. However, this does not solve the underlying problem of inflation or hyperinflation. It is only a way to rename the currency and remove zeros, without truly addressing the root cause of hyperinflation: the expansion of the money supply. In a later video, we will discuss the real solutions to address and resolve the problem of hyperinflation. In this series, we will highlight the consequences of a simple redenomination without adequate reforms: inflation persists.
 After Argentina, our study will cover Brazil, Bolivia, Peru, Nicaragua, and Venezuela. We will examine the redenominations that have taken place in these countries.
 
@@ -832,7 +834,7 @@ A notable fact about Venezuela is its membership in the Latin Monetary Union. Th
 
 ![image](assets/fr/061.webp)
 
-During this period, the 5 bolivar coin from Venezuela had the same weight as those of the Union member countries, including Italy, Spain, Belgium, and France. These bolivars were made of silver, with a specific coin from 1929 weighing 25 grams and having a purity of 900, or 90% pure silver. With the current price of silver, this coin is worth approximately $17 to $18.
+During this period, the 5 bolivar coin from Venezuela had the same weight as those of the Union member countries, including Italy, Spain, Belgium, and France. These bolivars were made of silver, with a specific coin from 1929 weighing 25 grams and having a purity of 900, or 90% pure silver. With the current price of silver, this coin is worth approximately $17 to $18 (US Dollars).
 
 Following the adoption of a floating exchange rate in 1983, several redenominations followed:
 
@@ -856,15 +858,15 @@ In conclusion, hyperinflation is just one aspect of economic challenges. High in
 
 ### How to end moderate and high inflation
 
-The conclusions mentioned are drawn from the book "Monetary Regime and Inflation" by Bernold. According to Bernold, the only method to end inflation is to implement a monetary reform and impose fiscal restrictions on the government. These restrictions involve the establishment of an institution, such as a central bank, that operates independently from the government's political decisions. High and hyperinflation are often the result of financing budget deficits through the creation of money. To address moderate inflation, it is essential to decrease the growth of the money supply. Bernold also suggests that this monetary growth should be relative to neighboring countries. A surprising point is that, during periods of high or hyperinflation, the total value of the money supply can actually decrease. A striking example of this situation is Zimbabwe.
+The conclusions mentioned are drawn from the book "Monetary Regime and Inflation" by Peter Bernholz. According to Bernholz, the only method to end inflation is to implement a monetary reform and impose fiscal restrictions on the government. These restrictions involve the establishment of an institution, such as a central bank, that operates independently from the government's political decisions. High and hyperinflation are often the result of financing budget deficits through the creation of money. To address moderate inflation, it is essential to decrease the growth of the money supply. Bernholz also suggests that this monetary growth should be relative to neighboring countries. A surprising point is that, during periods of high or hyperinflation, the total value of the money supply can actually decrease. A striking example of this situation is Zimbabwe.
 
 ### Counterintuitive Solutions
 
 When studying Zimbabwe, it was noticed that 10 trillion units of the money supply had lost all their value. In Weimar, it was possible to print two-thirds of the total nominal value of 65 billion units of the money supply in a single day. This shows how the money supply can be devalued. To remedy this situation, it is necessary to significantly increase the money supply to reach an appropriate level. Then, a monetary reform is indispensable. In a situation of high inflation, this reform is unavoidable, but it must ensure that there is enough money in circulation. After this step, restrictions can be imposed on the government.
 
-According to Bernold's observations, when addressing inflation problems, institutions like the IMF and the World Bank do not always adopt the most effective strategies. In some cases, when a country needs to increase its money supply, these institutions seek to reduce it. The key is to reach an adequate monetary level and then impose limits on its growth, thus avoiding financing government expenses through monetary creation.
+According to Bernholz's observations, when addressing inflation problems, institutions like the IMF and the World Bank do not always adopt the most effective strategies. In some cases, when a country needs to increase its money supply, these institutions seek to reduce it. The key is to reach an adequate monetary level and then impose limits on its growth, thus avoiding financing government expenses through monetary creation.
 
-An interesting aspect raised by Bernold is that the success of a monetary reform depends not only on its technical relevance but also on the trust that the population places in it. Some well-designed reforms can fail because the public does not trust them, while others, poorly designed, can succeed because the population trusts them. Perception and public trust are therefore essential elements in the success or failure of a monetary reform.
+An interesting aspect raised by Bernholz is that the success of a monetary reform depends not only on its technical relevance but also on the trust that the population places in it. Some well-designed reforms can fail because the public does not trust them, while others, poorly designed, can succeed because the population trusts them. Perception and public trust are therefore essential elements in the success or failure of a monetary reform.
 
 - In Zimbabwe, the solution adopted to counter inflation was dollarization, which means they adopted the US dollar or other currencies from neighboring countries. This approach prevents the government from printing money at will.
 - In Germany, the solution was to create a new currency, the Rentenmark. This currency was backed by the Reich's territorial assets, and this strategy proved to be effective.
