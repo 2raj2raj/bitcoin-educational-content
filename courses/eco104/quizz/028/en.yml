@@ -1,7 +1,7 @@
 question: Can anyone duplicate the Bitcoin code?
-answer: yes, but you can't copy the value of the Bitcoin network
+answer: Yes, but you cannot copy the value of the Bitcoin network
 wrong_answers:
-  - ,Yes and you would copy the value of the Bitcoin network too
+  - Yes, and you would copy the value of the Bitcoin network too
   - No, and you can copy the value of the Bitcoin network
   - No, because the Bitcoin code is closed-source
 explanation: |
